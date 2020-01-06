@@ -1,0 +1,21 @@
+{
+  "name": "cheapest-dedicated-servers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "search": "node ./src/command.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "koa": "^2.6.2",
+    "koa-cash": "^2.2.0",
+    "koa-compress": "^3.0.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-response-time": "^2.1.0",
+    "koa-route": "^3.2.0",
+    "node-fetch": "^2.3.0"
+  }
+}
