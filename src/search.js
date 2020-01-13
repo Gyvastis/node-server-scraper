@@ -1,6 +1,7 @@
 const fs = require('fs');
 const providerDir = __dirname + '/providers/';
 const getCurrencyRates = require('./misc/currency');
+const Promise = require('bluebird');
 
 const providerApis = {};
 fs.readdirSync(providerDir).forEach(fileName => {
@@ -9,20 +10,17 @@ fs.readdirSync(providerDir).forEach(fileName => {
 
 const getSearchProviders = filterProvider => filterProvider ? [filterProvider] : Object.keys(providerApis);
 
-const availabilitySearch = (domain, filterProvider) => Promise.all(
-  getSearchProviders(filterProvider).map(provider => {
-    const startedAt = new Date();
+const availabilitySearch = filterProvider => Promise.map(getSearchProviders(filterProvider), provider => {
+  const startedAt = new Date();
+  return providerApis[provider]()
+  .then(data => ({
+    ...data,
+    meta: {
+      provider,
+      duration: (new Date()) - startedAt
+    }
+  }))
+  .catch(e => console.log(provider, e))
+});
 
-    return providerApis[provider](domain).then(data => ({
-      ...data,
-      meta: {
-        provider,
-        duration: (new Date()) - startedAt
-      }
-    })).catch(e => console.log(provider, e))
-  }
-));
-
-module.exports = (domain, filterProvider) =>
-  availabilitySearch(domain, filterProvider)
-;
+module.exports = filterProvider => availabilitySearch(filterProvider);
