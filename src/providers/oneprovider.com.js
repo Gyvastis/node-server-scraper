@@ -110,9 +110,9 @@ const DomainFetch = location =>
             server.available = $td.find('a').attr('data-tooltip').replace(/\s+/g, ' ').trim() === 'In Stock';
             break;
         }
-
-        servers.push(server);
       });
+
+      servers.push(server);
     });
 
     return {
