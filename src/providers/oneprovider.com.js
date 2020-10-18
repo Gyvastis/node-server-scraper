@@ -112,10 +112,19 @@ const OneFetch = uri =>
         bandwidthLimitUnit: {
           selector: '.res-bandwidth > :nth-child(2) .unit'
         },
+        priceNormalValue: {
+          selector: '.res-price .currency-code-usd .price-normal',
+        },
+        priceNewValue: {
+          selector: '.res-price .currency-code-usd .price-new-amount',
+        },
+        priceUnit: {
+          selector: '.res-price .currency-code-usd .price-normal .price-sign'
+        },
         available: {
           selector: '.res-stock .res-tooltip',
           attr: 'data-tooltip',
-          convert: x => x.toLowerCase() === 'in stock'
+          convert: x => x.toLowerCase() !== 'sold out'
         }
       }
     }
@@ -144,17 +153,17 @@ const OneFetch = uri =>
       type: storage[3],
       connType: storage[4]
     })),
-    bandwidth: {
-      speed: {
-        value: server.bandwidthSpeedValue,
-        unit: server.bandwidthSpeedUnit,
-      },
-      limit: {
-        value: server.bandwidthLimitValue,
-        unit: server.bandwidthLimitUnit,
-      },
+    bandwidthSpeed: {
+      value: server.bandwidthSpeedValue,
+      unit: server.bandwidthSpeedUnit,
+    },
+    bandwidthLimit: {
+      value: server.bandwidthLimitValue,
+      unit: server.bandwidthLimitUnit,
     },
     price: {
+      value: parseFloat(server.priceNewValue > 0 ? server.priceNewValue.replace(server.priceUnit, '') : server.priceNormalValue.replace(server.priceUnit, '')),
+      unit: server.priceUnit,
     },
     available: server.available,
   })));
