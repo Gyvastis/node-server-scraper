@@ -177,5 +177,16 @@ module.exports = async () => {
     .then(servers => {
       console.log(`[${++currentUrl}/${totalUrls}] https://oneprovider.com${url}`)
       return servers;
-    }), { concurrency: 1 });
+    }), { concurrency: 1 })
+    .then(serversGrouped => {
+      const serversMerged = [];
+      
+      serversGrouped.forEach(servers => {
+        servers.forEach(server => {
+          serversMerged.push(server)
+        });
+      });
+
+      return serversMerged;
+    });
 }
