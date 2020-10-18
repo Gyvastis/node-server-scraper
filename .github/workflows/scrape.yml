@@ -1,19 +1,26 @@
-name: Scrape latest data
+ame: Node.js CI
 
 on:
   push:
   workflow_dispatch:
   schedule:
-    - cron:  '0 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
-  scheduled:
+  build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
     steps:
-    - name: Check out this repo
-      uses: actions/checkout@v2
-    - name: Install dependencies
-      uses: yarn
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: yarn
     - name: Fetch latest data
       run: yarn scrape-n-save
     - name: Commit and push if it changed
