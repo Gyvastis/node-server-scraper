@@ -27,6 +27,7 @@ jobs:
       with:
         path: |
           **/node_modules
+        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
     - name: Fetch latest data
       run: yarn scrape-n-save
     - name: Commit and push if it changed
