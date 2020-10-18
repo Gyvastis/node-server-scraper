@@ -79,15 +79,88 @@ const OneFetch = uri =>
         cpuCores: {
           selector: '.field-cpu-core',
           convert: x => parseInt(x.split(' ')[0])
+        },
+        memValue: {
+          selector: '.res-memory .digits',
+          convert: x => parseInt(x)
+        },
+        memUnit: {
+          selector: '.res-memory .unit'
+        },
+        memType: {
+          selector: '.res-memory > :nth-child(2)'
+        },
+        storage: {
+          selector: '.res-storage',
+          convert: x => x.replace(/\s+/g, ' ')
+            .split(' or ')
+            .map(storage => storage.trim())
+            .filter(storage => storage !== '*Base Storage')
+            .map(storage => storage.split(' ').map(storageValue => storageValue.replace(/[\(\)]/g, '')))
+        },
+        bandwidthSpeedValue: {
+          selector: '.res-bandwidth > :nth-child(1) .digits',
+          convert: x => parseInt(x)
+        },
+        bandwidthSpeedUnit: {
+          selector: '.res-bandwidth > :nth-child(1) .unit'
+        },
+        bandwidthLimitValue: {
+          selector: '.res-bandwidth > :nth-child(2) .digits',
+          convert: x => parseInt(x)
+        },
+        bandwidthLimitUnit: {
+          selector: '.res-bandwidth > :nth-child(2) .unit'
+        },
+        available: {
+          selector: '.res-stock .res-tooltip',
+          attr: 'data-tooltip',
+          convert: x => x.toLowerCase() === 'in stock'
         }
       }
     }
   }))
-  .then(({ servers }) => servers);
+  .then(({ servers }) => servers.map(server => ({
+    location: {
+      country: server.country,
+      city: server.city,
+    },
+    cpu: {
+      amount: server.cpuAmount,
+      brand: server.cpuBrand,
+      name: server.cpuName,
+      frequency: server.cpuFreq,
+      cores: server.cpuCores,
+    },
+    memory: {
+      value: server.memValue,
+      unit: server.memUnit,
+      type: server.memType,
+    },
+    storage: server.storage.map(storage => ({
+      amount: parseInt(storage[0]),
+      value: parseInt(storage[1]),
+      unit: storage[2],
+      type: storage[3],
+      connType: storage[4]
+    })),
+    bandwidth: {
+      speed: {
+        value: server.bandwidthSpeedValue,
+        unit: server.bandwidthSpeedUnit,
+      },
+      limit: {
+        value: server.bandwidthLimitValue,
+        unit: server.bandwidthLimitUnit,
+      },
+    },
+    price: {
+    },
+    available: server.available,
+  })));
 
 module.exports = async () => {
   const urls = await ListFetch();
-  // console.log(urls)
 
-  return await Promise.map(urls.slice(0, 1), url => OneFetch(url), { concurrency: 1 });
+  return await Promise.map(urls, url => OneFetch(url), { concurrency: 1 });
 }
