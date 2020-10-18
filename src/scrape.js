@@ -1,6 +1,7 @@
 const fs = require('fs');
-const providerDir = __dirname + '/providers/';
 const Promise = require('bluebird');
+const _ = require("lodash");
+const providerDir = __dirname + '/providers/';
 
 const providerApis = {};
 fs.readdirSync(providerDir).forEach(fileName => {
@@ -14,13 +15,21 @@ const scrape = filterProvider => Promise.map(getProviders(filterProvider), provi
 
   return providerApis[provider]()
     .then(data => ({
-      ...data,
+      data: data,
       meta: {
         provider,
         duration: (new Date()) - startedAt
       }
     }))
     .catch(e => console.log(provider, e))
+}).then(servers => {
+  let mergedServers = [];
+
+  servers.forEach(serversArray => {
+    mergedServers = _.concat(mergedServers, serversArray);
+  });
+
+  return mergedServers;
 });
 
 module.exports = filterProvider => scrape(filterProvider);

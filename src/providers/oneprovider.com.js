@@ -161,6 +161,12 @@ const OneFetch = uri =>
 
 module.exports = async () => {
   const urls = await ListFetch();
+  let currentUrl = 0;
+  const totalUrls = urls.length
 
-  return await Promise.map(urls, url => OneFetch(url), { concurrency: 1 });
+  return await Promise.map(urls.splice(0, 2), url => OneFetch(url)
+    .then(servers => {
+      console.log(`[${++currentUrl}/${totalUrls}] https://oneprovider.com${url}`)
+      return servers;
+    }), { concurrency: 1 });
 }

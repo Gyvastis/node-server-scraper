@@ -3,4 +3,6 @@ const fs = require('fs');
 const scrape = require('./scrape');
 
 scrape(process.argv[2])
-  .then(data => console.log(util.inspect(data, false, null, true)));
+  .then(data => {
+    fs.writeFileSync('./output/output.json', JSON.stringify(data, null, 4));
+  });

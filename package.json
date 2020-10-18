@@ -4,11 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "scrape": "node ./src/command.js"
+    "scrape": "node ./src/command.js",
+    "scrape-n-save": "node ./src/command-save.js"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
     "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.20",
     "node-fetch": "^2.3.0",
     "scrape-it": "^5.2.4"
   }
