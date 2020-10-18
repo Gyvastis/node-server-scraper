@@ -44,7 +44,7 @@ const ListFetch = () =>
   }))
   .then(({ urls }) => urls.map(url => url.url));
 
-const OneFetch = uri => 
+const OneFetch = uri =>
   ProviderFetch(`https://oneprovider.com${uri}`)
   .then(body => body.text())
   .then(text => cheerio.load(text))
@@ -180,7 +180,7 @@ module.exports = async () => {
     }), { concurrency: 1 })
     .then(serversGrouped => {
       const serversMerged = [];
-      
+
       serversGrouped.forEach(servers => {
         servers.forEach(server => {
           serversMerged.push(server)
