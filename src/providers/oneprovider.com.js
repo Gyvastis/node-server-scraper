@@ -163,7 +163,7 @@ const OneFetch = uri =>
     },
     price: {
       value: parseFloat(server.priceNewValue > 0 ? server.priceNewValue.replace(server.priceUnit, '') : server.priceNormalValue.replace(server.priceUnit, '')),
-      unit: server.priceUnit,
+      unit: 'USD',
     },
     available: server.available,
   })));
