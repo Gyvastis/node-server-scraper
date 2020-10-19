@@ -52,6 +52,7 @@ const OneFetch = () =>
                     },
                     price: {
                         selector: 'td:last-child',
+                        convert: x => x.split(' '),
                     },
                 },
             },
@@ -88,7 +89,7 @@ const OneFetch = () =>
                 unit: server.bandwidthLimit[1],
             },
             price: {
-                value: server.price,
+                value: server.price[0],
                 unit: 'EUR',
             },
             available: true,
