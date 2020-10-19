@@ -89,7 +89,7 @@ const OneFetch = () =>
                 unit: server.bandwidthLimit[1],
             },
             price: {
-                value: server.price[0],
+                value: parseFloat(server.price[0]),
                 unit: 'EUR',
             },
             available: true,
