@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 67891
+            "duration": 53681
         },
         "servers": [
             {
@@ -50,7 +50,7 @@
                     "value": 14.54,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -662,6 +662,46 @@
                 },
                 "price": {
                     "value": 168.58,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Netherlands",
+                    "city": "Amsterdam"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "AMD",
+                    "name": "EPYC 7302P",
+                    "frequency": "3 GHz",
+                    "cores": 16
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 100,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 180.71,
                     "unit": "USD"
                 },
                 "available": true
@@ -26575,7 +26615,7 @@
                     "value": 19.41,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -42135,7 +42175,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 1029
+            "duration": 772
         },
         "servers": [
             {
