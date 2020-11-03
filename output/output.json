@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 99926
+            "duration": 119480
         },
         "servers": [
             {
@@ -855,9 +855,9 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E-2236",
-                    "frequency": "3.4 GHz",
-                    "cores": 6
+                    "name": "Xeon E-2234",
+                    "frequency": "3.6 GHz",
+                    "cores": 4
                 },
                 "memory": {
                     "value": 16,
@@ -902,9 +902,9 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E-2234",
-                    "frequency": "3.6 GHz",
-                    "cores": 4
+                    "name": "Xeon E-2236",
+                    "frequency": "3.4 GHz",
+                    "cores": 6
                 },
                 "memory": {
                     "value": 16,
@@ -7251,53 +7251,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E3-1270 v2",
-                    "frequency": "3.5 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 125.65,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Romania",
-                    "city": "Bucharest"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E3-1231 v3",
                     "frequency": "3.4 GHz",
                     "cores": 4
@@ -7333,6 +7286,53 @@
                 },
                 "price": {
                     "value": 118.47,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Romania",
+                    "city": "Bucharest"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1270 v2",
+                    "frequency": "3.5 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 5,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 125.65,
                     "unit": "USD"
                 },
                 "available": true
@@ -15645,9 +15645,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-9600K",
-                    "frequency": "3.7 GHz",
+                    "brand": "AMD",
+                    "name": "Ryzen 5 3600",
+                    "frequency": "3.6 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -15658,16 +15658,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -15692,9 +15692,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 5 3600",
-                    "frequency": "3.6 GHz",
+                    "brand": "Intel",
+                    "name": "Core i5-9600K",
+                    "frequency": "3.7 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -15705,16 +15705,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -17224,9 +17224,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-9600K",
-                    "frequency": "3.7 GHz",
+                    "brand": "AMD",
+                    "name": "Ryzen 5 3600",
+                    "frequency": "3.6 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -17237,16 +17237,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -17271,9 +17271,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 5 3600",
-                    "frequency": "3.6 GHz",
+                    "brand": "Intel",
+                    "name": "Core i5-9600K",
+                    "frequency": "3.7 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -17284,16 +17284,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -29762,53 +29762,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E3-1270 v2",
-                    "frequency": "3.5 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 125.65,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Italy",
-                    "city": "Milan"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E3-1231 v3",
                     "frequency": "3.4 GHz",
                     "cores": 4
@@ -29844,6 +29797,53 @@
                 },
                 "price": {
                     "value": 118.47,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Italy",
+                    "city": "Milan"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1270 v2",
+                    "frequency": "3.5 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 5,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 125.65,
                     "unit": "USD"
                 },
                 "available": true
@@ -34009,12 +34009,12 @@
                 "cpu": {
                     "amount": 2,
                     "brand": "Intel",
-                    "name": "Xeon E5-2440 v2",
-                    "frequency": "1.9 GHz",
+                    "name": "Xeon E5-2670",
+                    "frequency": "2.6 GHz",
                     "cores": 8
                 },
                 "memory": {
-                    "value": 32,
+                    "value": 64,
                     "unit": "GB",
                     "type": "DDR3"
                 },
@@ -34025,6 +34025,13 @@
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 146,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SAS"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -34049,12 +34056,12 @@
                 "cpu": {
                     "amount": 2,
                     "brand": "Intel",
-                    "name": "Xeon E5-2670",
-                    "frequency": "2.6 GHz",
+                    "name": "Xeon E5-2440 v2",
+                    "frequency": "1.9 GHz",
                     "cores": 8
                 },
                 "memory": {
-                    "value": 64,
+                    "value": 32,
                     "unit": "GB",
                     "type": "DDR3"
                 },
@@ -34065,13 +34072,6 @@
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 146,
-                        "unit": "GB",
-                        "type": "HDD",
-                        "connType": "SAS"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -48899,53 +48899,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E3-1270 v2",
-                    "frequency": "3.5 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 125.65,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Sweden",
-                    "city": "Stockholm"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E3-1231 v3",
                     "frequency": "3.4 GHz",
                     "cores": 4
@@ -48981,6 +48934,53 @@
                 },
                 "price": {
                     "value": 118.47,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Sweden",
+                    "city": "Stockholm"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1270 v2",
+                    "frequency": "3.5 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 5,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 125.65,
                     "unit": "USD"
                 },
                 "available": true
@@ -57310,7 +57310,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 1087
+            "duration": 846
         },
         "servers": [
             {
