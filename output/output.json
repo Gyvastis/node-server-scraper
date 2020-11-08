@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 138317
+            "duration": 129816
         },
         "servers": [
             {
@@ -5164,8 +5164,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-3220",
-                    "frequency": "3.3 GHz",
+                    "name": "Core i3-7100",
+                    "frequency": "3.9 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5176,9 +5176,16 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
+                        "value": 1,
+                        "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -5204,8 +5211,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-7100",
-                    "frequency": "3.9 GHz",
+                    "name": "Core i3-3220",
+                    "frequency": "3.3 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5216,16 +5223,9 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 120,
+                        "value": 500,
                         "unit": "GB",
-                        "type": "SSD",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -24264,7 +24264,7 @@
                     }
                 ],
                 "bandwidthSpeed": {
-                    "value": 10,
+                    "value": 100,
                     "unit": "Mbps"
                 },
                 "bandwidthLimit": {
@@ -24304,7 +24304,7 @@
                     }
                 ],
                 "bandwidthSpeed": {
-                    "value": 100,
+                    "value": 10,
                     "unit": "Mbps"
                 },
                 "bandwidthLimit": {
@@ -24755,7 +24755,7 @@
                     "value": 19.55,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -38730,7 +38730,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 988
+            "duration": 628
         },
         "servers": [
             {
