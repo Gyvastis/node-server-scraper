@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 133894
+            "duration": 125830
         },
         "servers": [
             {
@@ -10148,9 +10148,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-9600K",
-                    "frequency": "3.7 GHz",
+                    "brand": "AMD",
+                    "name": "Ryzen 5 3600",
+                    "frequency": "3.6 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -10161,16 +10161,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -10195,9 +10195,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 5 3600",
-                    "frequency": "3.6 GHz",
+                    "brand": "Intel",
+                    "name": "Core i5-9600K",
+                    "frequency": "3.7 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -10208,16 +10208,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -11673,9 +11673,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-9600K",
-                    "frequency": "3.7 GHz",
+                    "brand": "AMD",
+                    "name": "Ryzen 5 3600",
+                    "frequency": "3.6 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -11686,16 +11686,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -11720,9 +11720,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 5 3600",
-                    "frequency": "3.6 GHz",
+                    "brand": "Intel",
+                    "name": "Core i5-9600K",
+                    "frequency": "3.7 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -11733,16 +11733,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -21872,46 +21872,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E5-1650",
-                    "frequency": "3.2 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 3,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 80,
-                    "unit": "USD"
-                },
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon D-1520",
                     "frequency": "2.2 GHz",
                     "cores": 4
@@ -21940,6 +21900,46 @@
                 },
                 "price": {
                     "value": 75,
+                    "unit": "USD"
+                },
+                "available": false
+            },
+            {
+                "location": {
+                    "country": "Canada",
+                    "city": "Montreal"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E5-1650",
+                    "frequency": "3.2 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 3,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 80,
                     "unit": "USD"
                 },
                 "available": false
@@ -38730,7 +38730,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 611
+            "duration": 692
         },
         "servers": [
             {
