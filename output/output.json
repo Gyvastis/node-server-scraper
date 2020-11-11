@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 115759
+            "duration": 129685
         },
         "servers": [
             {
@@ -47,10 +47,10 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 14.58,
+                    "value": 14.57,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -94,7 +94,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 35.26,
+                    "value": 35.24,
                     "unit": "USD"
                 },
                 "available": true
@@ -141,7 +141,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -181,7 +181,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -221,7 +221,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -261,7 +261,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 151.99,
+                    "value": 151.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -301,7 +301,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 59.58,
+                    "value": 59.54,
                     "unit": "USD"
                 },
                 "available": true
@@ -341,7 +341,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 96.06,
+                    "value": 96,
                     "unit": "USD"
                 },
                 "available": true
@@ -381,7 +381,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 103.35,
+                    "value": 103.28,
                     "unit": "USD"
                 },
                 "available": true
@@ -421,47 +421,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 108.22,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Netherlands",
-                    "city": "Amsterdam"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2420",
-                    "frequency": "1.9 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 50,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 120.38,
+                    "value": 108.15,
                     "unit": "USD"
                 },
                 "available": true
@@ -501,7 +461,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -512,16 +472,16 @@
                     "city": "Amsterdam"
                 },
                 "cpu": {
-                    "amount": 1,
+                    "amount": 2,
                     "brand": "Intel",
-                    "name": "Xeon E-2286G",
-                    "frequency": "4 GHz",
+                    "name": "Xeon E5-2420",
+                    "frequency": "1.9 GHz",
                     "cores": 6
                 },
                 "memory": {
                     "value": 32,
                     "unit": "GB",
-                    "type": "DDR4"
+                    "type": "DDR3"
                 },
                 "storage": [
                     {
@@ -541,7 +501,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 144.7,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -581,7 +541,47 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 144.7,
+                    "value": 144.6,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Netherlands",
+                    "city": "Amsterdam"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E-2286G",
+                    "frequency": "4 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 4,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 50,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 144.6,
                     "unit": "USD"
                 },
                 "available": true
@@ -621,7 +621,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 156.86,
+                    "value": 156.75,
                     "unit": "USD"
                 },
                 "available": true
@@ -661,7 +661,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 169.02,
+                    "value": 168.9,
                     "unit": "USD"
                 },
                 "available": true
@@ -701,7 +701,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -748,7 +748,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 66.87,
+                    "value": 66.83,
                     "unit": "USD"
                 },
                 "available": true
@@ -795,7 +795,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -842,7 +842,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 96.06,
+                    "value": 96,
                     "unit": "USD"
                 },
                 "available": true
@@ -889,7 +889,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 103.35,
+                    "value": 103.28,
                     "unit": "USD"
                 },
                 "available": true
@@ -936,7 +936,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 103.35,
+                    "value": 103.28,
                     "unit": "USD"
                 },
                 "available": true
@@ -983,7 +983,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -1030,7 +1030,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -1077,7 +1077,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 205.5,
+                    "value": 205.36,
                     "unit": "USD"
                 },
                 "available": true
@@ -1124,7 +1124,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -1171,7 +1171,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 241.98,
+                    "value": 241.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -1218,7 +1218,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 290.62,
+                    "value": 290.41,
                     "unit": "USD"
                 },
                 "available": true
@@ -1258,7 +1258,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 346.55,
+                    "value": 346.31,
                     "unit": "USD"
                 },
                 "available": true
@@ -1298,7 +1298,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 290.62,
+                    "value": 290.41,
                     "unit": "USD"
                 },
                 "available": true
@@ -1345,7 +1345,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 363.58,
+                    "value": 363.32,
                     "unit": "USD"
                 },
                 "available": true
@@ -1392,7 +1392,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 473.01,
+                    "value": 472.68,
                     "unit": "USD"
                 },
                 "available": true
@@ -1439,7 +1439,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 922.92,
+                    "value": 922.27,
                     "unit": "USD"
                 },
                 "available": true
@@ -1486,7 +1486,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 971.56,
+                    "value": 970.88,
                     "unit": "USD"
                 },
                 "available": true
@@ -1533,7 +1533,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 1701.14,
+                    "value": 1699.95,
                     "unit": "USD"
                 },
                 "available": true
@@ -1580,7 +1580,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 1822.74,
+                    "value": 1821.46,
                     "unit": "USD"
                 },
                 "available": true
@@ -2062,7 +2062,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 144.7,
+                    "value": 144.6,
                     "unit": "USD"
                 },
                 "available": false
@@ -2102,7 +2102,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 144.7,
+                    "value": 144.6,
                     "unit": "USD"
                 },
                 "available": true
@@ -2142,7 +2142,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 176.32,
+                    "value": 176.2,
                     "unit": "USD"
                 },
                 "available": true
@@ -2182,7 +2182,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 224.95,
+                    "value": 224.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -2222,7 +2222,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 224.95,
+                    "value": 224.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -2262,7 +2262,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 310.07,
+                    "value": 309.85,
                     "unit": "USD"
                 },
                 "available": false
@@ -2302,7 +2302,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 310.07,
+                    "value": 309.85,
                     "unit": "USD"
                 },
                 "available": false
@@ -2469,7 +2469,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 193.34,
+                    "value": 193.21,
                     "unit": "USD"
                 },
                 "available": true
@@ -2509,7 +2509,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 241.98,
+                    "value": 241.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -2549,7 +2549,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 606.77,
+                    "value": 606.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -2789,7 +2789,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 103.35,
+                    "value": 103.28,
                     "unit": "USD"
                 },
                 "available": true
@@ -2829,7 +2829,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -2869,7 +2869,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -2916,7 +2916,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -2963,7 +2963,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -3010,7 +3010,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -3057,7 +3057,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -3104,7 +3104,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -3151,7 +3151,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -3198,7 +3198,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -3245,7 +3245,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -3292,7 +3292,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -3339,7 +3339,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -3386,7 +3386,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -3433,7 +3433,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -3480,7 +3480,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -3969,7 +3969,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -4016,7 +4016,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -4063,7 +4063,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -4110,7 +4110,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -4157,7 +4157,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -4204,7 +4204,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -4378,7 +4378,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -4425,7 +4425,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -4472,7 +4472,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -4519,7 +4519,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -4566,7 +4566,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -4613,7 +4613,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -4660,7 +4660,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -4707,7 +4707,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -4754,7 +4754,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -4801,7 +4801,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -4848,7 +4848,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -4895,7 +4895,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -4942,7 +4942,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -4989,7 +4989,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -5036,7 +5036,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -5083,7 +5083,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -5130,7 +5130,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -5177,7 +5177,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -5224,7 +5224,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -5324,8 +5324,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-3220",
-                    "frequency": "3.3 GHz",
+                    "name": "Core i3-7100",
+                    "frequency": "3.9 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5336,9 +5336,16 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
+                        "value": 1,
+                        "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -5364,8 +5371,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-7100",
-                    "frequency": "3.9 GHz",
+                    "name": "Core i3-3220",
+                    "frequency": "3.3 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5376,16 +5383,9 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 120,
+                        "value": 500,
                         "unit": "GB",
-                        "type": "SSD",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -7409,7 +7409,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 71.74,
+                    "value": 71.69,
                     "unit": "USD"
                 },
                 "available": true
@@ -7456,7 +7456,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 79.04,
+                    "value": 78.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -7503,7 +7503,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 108.22,
+                    "value": 108.15,
                     "unit": "USD"
                 },
                 "available": true
@@ -7550,7 +7550,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 144.7,
+                    "value": 144.6,
                     "unit": "USD"
                 },
                 "available": true
@@ -7597,7 +7597,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 412.22,
+                    "value": 411.93,
                     "unit": "USD"
                 },
                 "available": true
@@ -7644,7 +7644,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -7691,7 +7691,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -7738,7 +7738,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -7785,7 +7785,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -7832,7 +7832,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -7879,7 +7879,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -9043,7 +9043,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -9090,7 +9090,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -9137,7 +9137,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -9184,7 +9184,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -9231,7 +9231,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -9278,7 +9278,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -9332,7 +9332,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 145.9,
+                    "value": 145.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -9386,7 +9386,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 145.9,
+                    "value": 145.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -9426,7 +9426,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 18.22,
+                    "value": 18.21,
                     "unit": "USD"
                 },
                 "available": false
@@ -9466,7 +9466,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 21.88,
+                    "value": 21.86,
                     "unit": "USD"
                 },
                 "available": true
@@ -9513,7 +9513,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 30.39,
+                    "value": 30.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -9560,7 +9560,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 38.9,
+                    "value": 38.88,
                     "unit": "USD"
                 },
                 "available": false
@@ -9607,7 +9607,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 40.11,
+                    "value": 40.09,
                     "unit": "USD"
                 },
                 "available": false
@@ -9654,7 +9654,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 48.63,
+                    "value": 48.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -9701,7 +9701,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 47.41,
+                    "value": 47.38,
                     "unit": "USD"
                 },
                 "available": true
@@ -9748,7 +9748,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 55.93,
+                    "value": 55.88,
                     "unit": "USD"
                 },
                 "available": true
@@ -9795,7 +9795,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 55.93,
+                    "value": 55.88,
                     "unit": "USD"
                 },
                 "available": false
@@ -9842,7 +9842,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 72.95,
+                    "value": 72.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -9896,7 +9896,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 55.93,
+                    "value": 55.88,
                     "unit": "USD"
                 },
                 "available": true
@@ -9943,7 +9943,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 55.93,
+                    "value": 55.88,
                     "unit": "USD"
                 },
                 "available": true
@@ -9990,7 +9990,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 72.95,
+                    "value": 72.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -10037,54 +10037,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 57.14,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Germany",
-                    "city": "Dusseldorf"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-9600K",
-                    "frequency": "3.7 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 72.95,
+                    "value": 57.1,
                     "unit": "USD"
                 },
                 "available": true
@@ -10131,7 +10084,54 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 72.95,
+                    "value": 72.89,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Germany",
+                    "city": "Dusseldorf"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i5-9600K",
+                    "frequency": "3.7 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 72.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -10178,7 +10178,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 77.81,
+                    "value": 77.75,
                     "unit": "USD"
                 },
                 "available": true
@@ -10225,7 +10225,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 80.24,
+                    "value": 80.19,
                     "unit": "USD"
                 },
                 "available": true
@@ -10272,7 +10272,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 91.19,
+                    "value": 91.12,
                     "unit": "USD"
                 },
                 "available": true
@@ -10319,7 +10319,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 97.26,
+                    "value": 97.2,
                     "unit": "USD"
                 },
                 "available": true
@@ -10366,7 +10366,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 97.26,
+                    "value": 97.2,
                     "unit": "USD"
                 },
                 "available": true
@@ -10413,7 +10413,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 109.42,
+                    "value": 109.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -10460,7 +10460,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 109.42,
+                    "value": 109.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -10507,7 +10507,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 109.42,
+                    "value": 109.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -10561,7 +10561,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 121.59,
+                    "value": 121.5,
                     "unit": "USD"
                 },
                 "available": true
@@ -10608,7 +10608,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 145.9,
+                    "value": 145.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -10662,7 +10662,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 182.38,
+                    "value": 182.26,
                     "unit": "USD"
                 },
                 "available": true
@@ -10709,7 +10709,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 158.06,
+                    "value": 157.95,
                     "unit": "USD"
                 },
                 "available": true
@@ -10763,7 +10763,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 231.02,
+                    "value": 230.86,
                     "unit": "USD"
                 },
                 "available": true
@@ -10810,7 +10810,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 206.71,
+                    "value": 206.56,
                     "unit": "USD"
                 },
                 "available": true
@@ -10864,7 +10864,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 267.5,
+                    "value": 267.31,
                     "unit": "USD"
                 },
                 "available": false
@@ -10918,7 +10918,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 145.9,
+                    "value": 145.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -10972,7 +10972,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 145.9,
+                    "value": 145.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -11012,7 +11012,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 18.22,
+                    "value": 18.21,
                     "unit": "USD"
                 },
                 "available": false
@@ -11052,7 +11052,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 21.88,
+                    "value": 21.86,
                     "unit": "USD"
                 },
                 "available": true
@@ -11099,7 +11099,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 30.39,
+                    "value": 30.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -11146,7 +11146,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 38.9,
+                    "value": 38.88,
                     "unit": "USD"
                 },
                 "available": false
@@ -11193,7 +11193,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 40.11,
+                    "value": 40.09,
                     "unit": "USD"
                 },
                 "available": false
@@ -11240,7 +11240,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 48.63,
+                    "value": 48.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -11287,7 +11287,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 47.41,
+                    "value": 47.38,
                     "unit": "USD"
                 },
                 "available": true
@@ -11334,7 +11334,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 55.93,
+                    "value": 55.88,
                     "unit": "USD"
                 },
                 "available": true
@@ -11381,7 +11381,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 55.93,
+                    "value": 55.88,
                     "unit": "USD"
                 },
                 "available": false
@@ -11428,7 +11428,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 72.95,
+                    "value": 72.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -11482,7 +11482,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 55.93,
+                    "value": 55.88,
                     "unit": "USD"
                 },
                 "available": true
@@ -11529,7 +11529,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 55.93,
+                    "value": 55.88,
                     "unit": "USD"
                 },
                 "available": true
@@ -11576,7 +11576,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 72.95,
+                    "value": 72.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -11623,54 +11623,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 57.14,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Germany",
-                    "city": "Dusseldorf"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-9600K",
-                    "frequency": "3.7 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 72.95,
+                    "value": 57.1,
                     "unit": "USD"
                 },
                 "available": true
@@ -11717,7 +11670,54 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 72.95,
+                    "value": 72.89,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Germany",
+                    "city": "Dusseldorf"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i5-9600K",
+                    "frequency": "3.7 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 72.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -11764,7 +11764,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 77.81,
+                    "value": 77.75,
                     "unit": "USD"
                 },
                 "available": true
@@ -11811,7 +11811,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 80.24,
+                    "value": 80.19,
                     "unit": "USD"
                 },
                 "available": true
@@ -11858,7 +11858,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 91.19,
+                    "value": 91.12,
                     "unit": "USD"
                 },
                 "available": true
@@ -11905,7 +11905,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 97.26,
+                    "value": 97.2,
                     "unit": "USD"
                 },
                 "available": true
@@ -11952,7 +11952,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 97.26,
+                    "value": 97.2,
                     "unit": "USD"
                 },
                 "available": true
@@ -11999,7 +11999,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 109.42,
+                    "value": 109.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -12046,7 +12046,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 109.42,
+                    "value": 109.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -12093,7 +12093,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 109.42,
+                    "value": 109.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -12147,7 +12147,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 121.59,
+                    "value": 121.5,
                     "unit": "USD"
                 },
                 "available": true
@@ -12194,7 +12194,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 145.9,
+                    "value": 145.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -12248,7 +12248,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 182.38,
+                    "value": 182.26,
                     "unit": "USD"
                 },
                 "available": true
@@ -12295,7 +12295,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 158.06,
+                    "value": 157.95,
                     "unit": "USD"
                 },
                 "available": true
@@ -12349,7 +12349,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 231.02,
+                    "value": 230.86,
                     "unit": "USD"
                 },
                 "available": true
@@ -12396,7 +12396,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 206.71,
+                    "value": 206.56,
                     "unit": "USD"
                 },
                 "available": true
@@ -12450,7 +12450,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 267.5,
+                    "value": 267.31,
                     "unit": "USD"
                 },
                 "available": false
@@ -12833,7 +12833,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 71.74,
+                    "value": 71.69,
                     "unit": "USD"
                 },
                 "available": true
@@ -12880,7 +12880,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -12920,7 +12920,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -12967,7 +12967,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 254.13,
+                    "value": 253.96,
                     "unit": "USD"
                 },
                 "available": true
@@ -13014,7 +13014,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 351.41,
+                    "value": 351.17,
                     "unit": "USD"
                 },
                 "available": true
@@ -13061,7 +13061,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 473.01,
+                    "value": 472.68,
                     "unit": "USD"
                 },
                 "available": true
@@ -14169,7 +14169,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 71.74,
+                    "value": 71.69,
                     "unit": "USD"
                 },
                 "available": true
@@ -14209,7 +14209,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -14249,7 +14249,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 96.06,
+                    "value": 96,
                     "unit": "USD"
                 },
                 "available": true
@@ -14289,7 +14289,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 108.22,
+                    "value": 108.15,
                     "unit": "USD"
                 },
                 "available": true
@@ -14329,7 +14329,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 115.52,
+                    "value": 115.43,
                     "unit": "USD"
                 },
                 "available": true
@@ -14369,7 +14369,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 144.7,
+                    "value": 144.6,
                     "unit": "USD"
                 },
                 "available": true
@@ -14409,7 +14409,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 205.5,
+                    "value": 205.36,
                     "unit": "USD"
                 },
                 "available": true
@@ -14449,7 +14449,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -14489,7 +14489,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 164.16,
+                    "value": 164.04,
                     "unit": "USD"
                 },
                 "available": true
@@ -14529,7 +14529,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 193.34,
+                    "value": 193.21,
                     "unit": "USD"
                 },
                 "available": true
@@ -15032,7 +15032,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 35.26,
+                    "value": 35.24,
                     "unit": "USD"
                 },
                 "available": false
@@ -15079,7 +15079,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 42.56,
+                    "value": 42.53,
                     "unit": "USD"
                 },
                 "available": true
@@ -15126,7 +15126,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 54.72,
+                    "value": 54.68,
                     "unit": "USD"
                 },
                 "available": true
@@ -15166,7 +15166,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 79.04,
+                    "value": 78.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -15213,7 +15213,54 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 108.22,
+                    "value": 108.15,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230",
+                    "frequency": "3.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -15253,7 +15300,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -15277,17 +15324,17 @@
                 },
                 "storage": [
                     {
-                        "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
+                        "amount": 2,
                         "value": 1,
                         "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -15300,7 +15347,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 156.75,
                     "unit": "USD"
                 },
                 "available": true
@@ -15340,54 +15387,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 156.86,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Portugal",
-                    "city": "Lisbon"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230",
-                    "frequency": "3.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 156.86,
+                    "value": 156.75,
                     "unit": "USD"
                 },
                 "available": true
@@ -15434,7 +15434,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 169.02,
+                    "value": 168.9,
                     "unit": "USD"
                 },
                 "available": true
@@ -15481,7 +15481,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -15528,7 +15528,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 254.13,
+                    "value": 253.96,
                     "unit": "USD"
                 },
                 "available": true
@@ -15575,7 +15575,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 278.46,
+                    "value": 278.26,
                     "unit": "USD"
                 },
                 "available": true
@@ -15622,7 +15622,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 314.94,
+                    "value": 314.72,
                     "unit": "USD"
                 },
                 "available": true
@@ -15662,7 +15662,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 363.58,
+                    "value": 363.32,
                     "unit": "USD"
                 },
                 "available": true
@@ -15702,7 +15702,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 66.87,
+                    "value": 66.83,
                     "unit": "USD"
                 },
                 "available": true
@@ -15742,7 +15742,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 66.87,
+                    "value": 66.83,
                     "unit": "USD"
                 },
                 "available": false
@@ -15782,7 +15782,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -15829,7 +15829,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 156.86,
+                    "value": 156.75,
                     "unit": "USD"
                 },
                 "available": true
@@ -15876,7 +15876,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 229.82,
+                    "value": 229.66,
                     "unit": "USD"
                 },
                 "available": true
@@ -15916,7 +15916,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 545.97,
+                    "value": 545.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -15956,7 +15956,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 570.29,
+                    "value": 569.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -16003,7 +16003,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -16050,7 +16050,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 96.06,
+                    "value": 96,
                     "unit": "USD"
                 },
                 "available": true
@@ -16097,7 +16097,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 139.84,
+                    "value": 139.74,
                     "unit": "USD"
                 },
                 "available": true
@@ -16144,7 +16144,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 176.32,
+                    "value": 176.2,
                     "unit": "USD"
                 },
                 "available": true
@@ -16191,7 +16191,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 188.47,
+                    "value": 188.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -16238,7 +16238,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 193.34,
+                    "value": 193.21,
                     "unit": "USD"
                 },
                 "available": true
@@ -16285,7 +16285,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 764.85,
+                    "value": 764.31,
                     "unit": "USD"
                 },
                 "available": true
@@ -16325,7 +16325,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 558.13,
+                    "value": 557.74,
                     "unit": "USD"
                 },
                 "available": true
@@ -16365,7 +16365,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 716.2,
+                    "value": 715.71,
                     "unit": "USD"
                 },
                 "available": true
@@ -17498,7 +17498,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 79.04,
+                    "value": 78.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -17538,7 +17538,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 96.06,
+                    "value": 96,
                     "unit": "USD"
                 },
                 "available": true
@@ -17578,7 +17578,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 103.35,
+                    "value": 103.28,
                     "unit": "USD"
                 },
                 "available": true
@@ -17618,7 +17618,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 115.52,
+                    "value": 115.43,
                     "unit": "USD"
                 },
                 "available": true
@@ -17658,7 +17658,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 188.47,
+                    "value": 188.35,
                     "unit": "USD"
                 },
                 "available": true
@@ -17698,7 +17698,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -17738,7 +17738,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 205.5,
+                    "value": 205.36,
                     "unit": "USD"
                 },
                 "available": true
@@ -17778,7 +17778,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -17818,7 +17818,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 278.46,
+                    "value": 278.26,
                     "unit": "USD"
                 },
                 "available": true
@@ -17865,7 +17865,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -17912,7 +17912,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -17959,7 +17959,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -18006,7 +18006,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -18053,7 +18053,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -18100,7 +18100,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -18147,7 +18147,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -18187,7 +18187,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 351.41,
+                    "value": 351.17,
                     "unit": "USD"
                 },
                 "available": true
@@ -18227,7 +18227,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 412.22,
+                    "value": 411.93,
                     "unit": "USD"
                 },
                 "available": true
@@ -18267,7 +18267,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 558.13,
+                    "value": 557.74,
                     "unit": "USD"
                 },
                 "available": true
@@ -18307,7 +18307,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 2187.52,
+                    "value": 2186,
                     "unit": "USD"
                 },
                 "available": true
@@ -18347,7 +18347,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 3889.88,
+                    "value": 3887.17,
                     "unit": "USD"
                 },
                 "available": true
@@ -18387,7 +18387,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 7294.59,
+                    "value": 7289.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -18427,7 +18427,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 716.2,
+                    "value": 715.71,
                     "unit": "USD"
                 },
                 "available": true
@@ -18474,7 +18474,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -18521,7 +18521,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -18568,7 +18568,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -18615,7 +18615,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -18662,7 +18662,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -18709,7 +18709,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -20939,7 +20939,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 47.43,
+                    "value": 47.39,
                     "unit": "USD"
                 },
                 "available": true
@@ -20979,7 +20979,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 54.72,
+                    "value": 54.68,
                     "unit": "USD"
                 },
                 "available": true
@@ -21019,7 +21019,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -21066,7 +21066,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -21113,7 +21113,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -21160,7 +21160,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -21207,7 +21207,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -21254,7 +21254,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -21301,7 +21301,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -21681,46 +21681,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E5-1650",
-                    "frequency": "3.2 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 3,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 80,
-                    "unit": "USD"
-                },
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon D-1520",
                     "frequency": "2.2 GHz",
                     "cores": 4
@@ -21749,6 +21709,46 @@
                 },
                 "price": {
                     "value": 75,
+                    "unit": "USD"
+                },
+                "available": false
+            },
+            {
+                "location": {
+                    "country": "Canada",
+                    "city": "Montreal"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E5-1650",
+                    "frequency": "3.2 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 3,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 80,
                     "unit": "USD"
                 },
                 "available": false
@@ -21948,7 +21948,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 108.22,
+                    "value": 108.15,
                     "unit": "USD"
                 },
                 "available": true
@@ -21995,7 +21995,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -22035,7 +22035,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 205.5,
+                    "value": 205.36,
                     "unit": "USD"
                 },
                 "available": true
@@ -22075,7 +22075,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 71.74,
+                    "value": 71.69,
                     "unit": "USD"
                 },
                 "available": true
@@ -22115,7 +22115,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -22155,7 +22155,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -22195,7 +22195,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 169.02,
+                    "value": 168.9,
                     "unit": "USD"
                 },
                 "available": true
@@ -22235,7 +22235,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -22275,7 +22275,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 241.98,
+                    "value": 241.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -22315,7 +22315,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 327.1,
+                    "value": 326.87,
                     "unit": "USD"
                 },
                 "available": true
@@ -22355,7 +22355,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 436.53,
+                    "value": 436.22,
                     "unit": "USD"
                 },
                 "available": true
@@ -22395,7 +22395,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 485.17,
+                    "value": 484.83,
                     "unit": "USD"
                 },
                 "available": true
@@ -22435,7 +22435,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 533.81,
+                    "value": 533.43,
                     "unit": "USD"
                 },
                 "available": true
@@ -22475,7 +22475,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 1056.68,
+                    "value": 1055.94,
                     "unit": "USD"
                 },
                 "available": true
@@ -24041,47 +24041,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 200.63,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Cyprus",
-                    "city": "Nicosia"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2650 v2",
-                    "frequency": "2.6 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 100,
-                    "unit": "Mbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 419.51,
+                    "value": 200.49,
                     "unit": "USD"
                 },
                 "available": true
@@ -24121,7 +24081,47 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 419.51,
+                    "value": 419.21,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Cyprus",
+                    "city": "Nicosia"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2650 v2",
+                    "frequency": "2.6 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 100,
+                    "unit": "Mbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 419.21,
                     "unit": "USD"
                 },
                 "available": true
@@ -24161,7 +24161,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 169.02,
+                    "value": 168.9,
                     "unit": "USD"
                 },
                 "available": true
@@ -24201,7 +24201,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 193.34,
+                    "value": 193.21,
                     "unit": "USD"
                 },
                 "available": true
@@ -24241,7 +24241,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 290.62,
+                    "value": 290.41,
                     "unit": "USD"
                 },
                 "available": true
@@ -24281,7 +24281,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 363.58,
+                    "value": 363.32,
                     "unit": "USD"
                 },
                 "available": true
@@ -24321,7 +24321,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 400.05,
+                    "value": 399.78,
                     "unit": "USD"
                 },
                 "available": true
@@ -24361,7 +24361,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 728.37,
+                    "value": 727.85,
                     "unit": "USD"
                 },
                 "available": true
@@ -24401,7 +24401,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 47.43,
+                    "value": 47.39,
                     "unit": "USD"
                 },
                 "available": true
@@ -24441,7 +24441,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 54.72,
+                    "value": 54.68,
                     "unit": "USD"
                 },
                 "available": true
@@ -24481,7 +24481,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 59.58,
+                    "value": 59.54,
                     "unit": "USD"
                 },
                 "available": true
@@ -24521,7 +24521,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 17.02,
+                    "value": 17.01,
                     "unit": "USD"
                 },
                 "available": false
@@ -24561,7 +24561,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 19.46,
+                    "value": 19.44,
                     "unit": "USD"
                 },
                 "available": false
@@ -24608,7 +24608,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 30.4,
+                    "value": 30.38,
                     "unit": "USD"
                 },
                 "available": true
@@ -24648,7 +24648,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 26.75,
+                    "value": 26.73,
                     "unit": "USD"
                 },
                 "available": false
@@ -24688,10 +24688,10 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 26.75,
+                    "value": 26.73,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -24735,10 +24735,10 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 54.72,
+                    "value": 54.68,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -24782,7 +24782,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 36.48,
+                    "value": 36.46,
                     "unit": "USD"
                 },
                 "available": true
@@ -24822,7 +24822,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": false
@@ -24869,7 +24869,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 47.43,
+                    "value": 47.39,
                     "unit": "USD"
                 },
                 "available": true
@@ -24923,10 +24923,10 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -24963,7 +24963,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 278.46,
+                    "value": 278.26,
                     "unit": "USD"
                 },
                 "available": true
@@ -25010,7 +25010,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 14.58,
+                    "value": 14.57,
                     "unit": "USD"
                 },
                 "available": true
@@ -25057,7 +25057,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 15.81,
+                    "value": 15.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -25097,7 +25097,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 19.46,
+                    "value": 19.44,
                     "unit": "USD"
                 },
                 "available": false
@@ -25137,7 +25137,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 21.89,
+                    "value": 21.88,
                     "unit": "USD"
                 },
                 "available": false
@@ -25191,10 +25191,10 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 30.4,
+                    "value": 30.38,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -25231,10 +25231,10 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 30.4,
+                    "value": 30.38,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -25271,7 +25271,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 39.52,
+                    "value": 39.49,
                     "unit": "USD"
                 },
                 "available": true
@@ -25318,10 +25318,10 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 42.56,
+                    "value": 42.53,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -25358,7 +25358,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 49.86,
+                    "value": 49.82,
                     "unit": "USD"
                 },
                 "available": true
@@ -25398,7 +25398,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 48.64,
+                    "value": 48.6,
                     "unit": "USD"
                 },
                 "available": true
@@ -25438,7 +25438,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 71.74,
+                    "value": 71.69,
                     "unit": "USD"
                 },
                 "available": true
@@ -25492,7 +25492,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 108.22,
+                    "value": 108.15,
                     "unit": "USD"
                 },
                 "available": false
@@ -25532,7 +25532,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 79.04,
+                    "value": 78.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -25572,7 +25572,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -25626,7 +25626,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 71.74,
+                    "value": 71.69,
                     "unit": "USD"
                 },
                 "available": true
@@ -25673,7 +25673,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 89.99,
+                    "value": 89.91,
                     "unit": "USD"
                 },
                 "available": true
@@ -25727,7 +25727,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 187.26,
+                    "value": 187.12,
                     "unit": "USD"
                 },
                 "available": false
@@ -25774,7 +25774,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -25814,7 +25814,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 108.22,
+                    "value": 108.15,
                     "unit": "USD"
                 },
                 "available": true
@@ -25854,7 +25854,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -25908,7 +25908,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 205.5,
+                    "value": 205.36,
                     "unit": "USD"
                 },
                 "available": true
@@ -25948,7 +25948,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 144.7,
+                    "value": 144.6,
                     "unit": "USD"
                 },
                 "available": true
@@ -25988,7 +25988,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 156.86,
+                    "value": 156.75,
                     "unit": "USD"
                 },
                 "available": false
@@ -26035,7 +26035,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 266.29,
+                    "value": 266.11,
                     "unit": "USD"
                 },
                 "available": true
@@ -26075,7 +26075,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 200.63,
+                    "value": 200.49,
                     "unit": "USD"
                 },
                 "available": false
@@ -26115,7 +26115,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 229.82,
+                    "value": 229.66,
                     "unit": "USD"
                 },
                 "available": true
@@ -26155,7 +26155,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": false
@@ -26195,7 +26195,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 72.96,
+                    "value": 72.9,
                     "unit": "USD"
                 },
                 "available": false
@@ -26235,7 +26235,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 79.04,
+                    "value": 78.99,
                     "unit": "USD"
                 },
                 "available": false
@@ -27354,7 +27354,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 108.22,
+                    "value": 108.15,
                     "unit": "USD"
                 },
                 "available": true
@@ -27401,7 +27401,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -27448,7 +27448,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 156.86,
+                    "value": 156.75,
                     "unit": "USD"
                 },
                 "available": true
@@ -27495,7 +27495,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 169.02,
+                    "value": 168.9,
                     "unit": "USD"
                 },
                 "available": true
@@ -27542,7 +27542,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -27589,7 +27589,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 254.13,
+                    "value": 253.96,
                     "unit": "USD"
                 },
                 "available": true
@@ -27636,7 +27636,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 278.46,
+                    "value": 278.26,
                     "unit": "USD"
                 },
                 "available": true
@@ -27683,7 +27683,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 314.94,
+                    "value": 314.72,
                     "unit": "USD"
                 },
                 "available": true
@@ -27730,7 +27730,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -27777,7 +27777,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -27824,7 +27824,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -27871,7 +27871,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -27918,7 +27918,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -27965,7 +27965,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -28005,7 +28005,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -28045,7 +28045,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 241.98,
+                    "value": 241.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -28525,7 +28525,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 412.22,
+                    "value": 411.93,
                     "unit": "USD"
                 },
                 "available": true
@@ -28565,7 +28565,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 485.17,
+                    "value": 484.83,
                     "unit": "USD"
                 },
                 "available": true
@@ -28605,7 +28605,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 582.44,
+                    "value": 582.04,
                     "unit": "USD"
                 },
                 "available": true
@@ -28645,7 +28645,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -28685,7 +28685,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 115.52,
+                    "value": 115.43,
                     "unit": "USD"
                 },
                 "available": true
@@ -28725,7 +28725,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -28765,7 +28765,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -28805,7 +28805,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -28845,7 +28845,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 139.84,
+                    "value": 139.74,
                     "unit": "USD"
                 },
                 "available": true
@@ -28885,7 +28885,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 164.16,
+                    "value": 164.04,
                     "unit": "USD"
                 },
                 "available": true
@@ -28925,7 +28925,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 156.86,
+                    "value": 156.75,
                     "unit": "USD"
                 },
                 "available": true
@@ -28972,7 +28972,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 327.1,
+                    "value": 326.87,
                     "unit": "USD"
                 },
                 "available": true
@@ -29139,7 +29139,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -29186,7 +29186,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -29233,7 +29233,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -29280,7 +29280,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -29327,7 +29327,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -29374,7 +29374,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -31217,46 +31217,6 @@
                     "city": "Seattle"
                 },
                 "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon L5520",
-                    "frequency": "2.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 48,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 39.99,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Seattle"
-                },
-                "cpu": {
                     "amount": 1,
                     "brand": "Intel",
                     "name": "Xeon E3-1230",
@@ -31287,6 +31247,46 @@
                 },
                 "price": {
                     "value": 49.99,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Seattle"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon L5520",
+                    "frequency": "2.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 48,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 30,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 39.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -32747,7 +32747,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 169.02,
+                    "value": 168.9,
                     "unit": "USD"
                 },
                 "available": true
@@ -32787,7 +32787,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -32827,7 +32827,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 327.1,
+                    "value": 326.87,
                     "unit": "USD"
                 },
                 "available": true
@@ -32867,7 +32867,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 351.41,
+                    "value": 351.17,
                     "unit": "USD"
                 },
                 "available": true
@@ -32907,7 +32907,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 485.17,
+                    "value": 484.83,
                     "unit": "USD"
                 },
                 "available": true
@@ -32947,7 +32947,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 509.49,
+                    "value": 509.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -32994,7 +32994,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -33041,7 +33041,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -33088,7 +33088,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -33135,7 +33135,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -33182,7 +33182,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -33229,7 +33229,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -33269,7 +33269,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 35.26,
+                    "value": 35.24,
                     "unit": "USD"
                 },
                 "available": true
@@ -33309,7 +33309,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 59.58,
+                    "value": 59.54,
                     "unit": "USD"
                 },
                 "available": true
@@ -33349,7 +33349,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 144.7,
+                    "value": 144.6,
                     "unit": "USD"
                 },
                 "available": true
@@ -33389,7 +33389,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -33429,7 +33429,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 205.5,
+                    "value": 205.36,
                     "unit": "USD"
                 },
                 "available": true
@@ -33469,7 +33469,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 229.82,
+                    "value": 229.66,
                     "unit": "USD"
                 },
                 "available": true
@@ -33509,7 +33509,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 241.98,
+                    "value": 241.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -33549,7 +33549,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 424.37,
+                    "value": 424.08,
                     "unit": "USD"
                 },
                 "available": true
@@ -33589,7 +33589,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 509.49,
+                    "value": 509.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -33636,7 +33636,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 971.56,
+                    "value": 970.88,
                     "unit": "USD"
                 },
                 "available": true
@@ -33676,7 +33676,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -33716,7 +33716,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 1093.16,
+                    "value": 1092.4,
                     "unit": "USD"
                 },
                 "available": true
@@ -33756,7 +33756,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 2065.92,
+                    "value": 2064.49,
                     "unit": "USD"
                 },
                 "available": true
@@ -34050,7 +34050,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -34097,7 +34097,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -34144,7 +34144,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -34191,7 +34191,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -34238,7 +34238,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -34285,7 +34285,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -35202,7 +35202,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 254.13,
+                    "value": 253.96,
                     "unit": "USD"
                 },
                 "available": true
@@ -35249,7 +35249,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 297.92,
+                    "value": 297.7,
                     "unit": "USD"
                 },
                 "available": true
@@ -36956,7 +36956,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -37003,7 +37003,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -37050,7 +37050,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -37097,7 +37097,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -37144,7 +37144,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -37191,7 +37191,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -37238,7 +37238,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 54.72,
+                    "value": 54.68,
                     "unit": "USD"
                 },
                 "available": true
@@ -37285,7 +37285,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 54.72,
+                    "value": 54.68,
                     "unit": "USD"
                 },
                 "available": true
@@ -37332,7 +37332,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 181.18,
+                    "value": 181.05,
                     "unit": "USD"
                 },
                 "available": true
@@ -37379,7 +37379,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 96.06,
+                    "value": 96,
                     "unit": "USD"
                 },
                 "available": true
@@ -37426,7 +37426,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -37473,7 +37473,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 132.55,
+                    "value": 132.45,
                     "unit": "USD"
                 },
                 "available": true
@@ -37513,7 +37513,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -37553,7 +37553,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 241.98,
+                    "value": 241.8,
                     "unit": "USD"
                 },
                 "available": true
@@ -37593,7 +37593,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 254.13,
+                    "value": 253.96,
                     "unit": "USD"
                 },
                 "available": true
@@ -37640,7 +37640,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 302.77,
+                    "value": 302.57,
                     "unit": "USD"
                 },
                 "available": true
@@ -37680,7 +37680,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -37720,7 +37720,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 96.06,
+                    "value": 96,
                     "unit": "USD"
                 },
                 "available": true
@@ -37760,7 +37760,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 193.34,
+                    "value": 193.21,
                     "unit": "USD"
                 },
                 "available": true
@@ -37800,7 +37800,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 66.87,
+                    "value": 66.83,
                     "unit": "USD"
                 },
                 "available": true
@@ -37840,7 +37840,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 59.58,
+                    "value": 59.54,
                     "unit": "USD"
                 },
                 "available": true
@@ -37880,7 +37880,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 66.87,
+                    "value": 66.83,
                     "unit": "USD"
                 },
                 "available": true
@@ -37920,7 +37920,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 71.74,
+                    "value": 71.69,
                     "unit": "USD"
                 },
                 "available": true
@@ -37960,7 +37960,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 83.9,
+                    "value": 83.84,
                     "unit": "USD"
                 },
                 "available": true
@@ -38637,7 +38637,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 91.2,
+                    "value": 91.14,
                     "unit": "USD"
                 },
                 "available": true
@@ -38684,7 +38684,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 120.38,
+                    "value": 120.3,
                     "unit": "USD"
                 },
                 "available": true
@@ -38731,7 +38731,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 127.68,
+                    "value": 127.59,
                     "unit": "USD"
                 },
                 "available": true
@@ -38778,7 +38778,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 217.65,
+                    "value": 217.51,
                     "unit": "USD"
                 },
                 "available": true
@@ -38825,7 +38825,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 339.25,
+                    "value": 339.01,
                     "unit": "USD"
                 },
                 "available": true
@@ -38872,7 +38872,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 431.67,
+                    "value": 431.37,
                     "unit": "USD"
                 },
                 "available": true
@@ -38882,7 +38882,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 1073
+            "duration": 612
         },
         "servers": [
             {
