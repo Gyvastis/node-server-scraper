@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 132572
+            "duration": 130248
         },
         "servers": [
             {
@@ -2247,9 +2247,9 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 256,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -2287,9 +2287,9 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 256,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -5324,8 +5324,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-3220",
-                    "frequency": "3.3 GHz",
+                    "name": "Core i3-7100",
+                    "frequency": "3.9 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5336,9 +5336,16 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
+                        "value": 1,
+                        "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -5364,8 +5371,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-7100",
-                    "frequency": "3.9 GHz",
+                    "name": "Core i3-3220",
+                    "frequency": "3.3 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5376,16 +5383,9 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 120,
+                        "value": 500,
                         "unit": "GB",
-                        "type": "SSD",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -6258,8 +6258,8 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
+                        "value": 2,
+                        "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
                     }
@@ -6316,138 +6316,11 @@
                     "unit": "Gbps"
                 },
                 "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 89,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Charlotte"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5410",
-                    "frequency": "2.3 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 24,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 99,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Charlotte"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1240 v3",
-                    "frequency": "3.4 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
                     "value": 10,
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 189,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Charlotte"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1270 v5",
-                    "frequency": "3.6 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 250,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 119,
+                    "value": 89,
                     "unit": "USD"
                 },
                 "available": true
@@ -6465,36 +6338,217 @@
                     "cores": 4
                 },
                 "memory": {
-                    "value": 32,
+                    "value": 64,
                     "unit": "GB",
-                    "type": "DDR3"
+                    "type": "DDR4"
                 },
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 2,
+                        "value": 4,
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 1,
-                        "value": 120,
+                        "value": 500,
                         "unit": "GB",
                         "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
                 "bandwidthSpeed": {
-                    "value": 1,
+                    "value": 10,
                     "unit": "Gbps"
                 },
                 "bandwidthLimit": {
-                    "value": 5,
+                    "value": 10,
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 149,
+                    "value": 169,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Charlotte"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i7-9700K",
+                    "frequency": "3.6 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 4,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 229,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Charlotte"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2640 v3",
+                    "frequency": "2.6 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 192,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 4,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 239,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Charlotte"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2670 v2",
+                    "frequency": "2.5 GHz",
+                    "cores": 10
+                },
+                "memory": {
+                    "value": 192,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 4,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 249,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Charlotte"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2697 v3",
+                    "frequency": "2.6 GHz",
+                    "cores": 14
+                },
+                "memory": {
+                    "value": 192,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "NVMe"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 299,
                     "unit": "USD"
                 },
                 "available": true
@@ -9901,53 +9955,6 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i7-7700K",
-                    "frequency": "4.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 120,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 72.89,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Germany",
-                    "city": "Dusseldorf"
-                },
-                "cpu": {
-                    "amount": 1,
                     "brand": "AMD",
                     "name": "Ryzen 7 1700X",
                     "frequency": "3.4 GHz",
@@ -9984,6 +9991,53 @@
                 },
                 "price": {
                     "value": 55.88,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Germany",
+                    "city": "Dusseldorf"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i7-7700K",
+                    "frequency": "4.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 72.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -10042,9 +10096,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-9600K",
-                    "frequency": "3.7 GHz",
+                    "brand": "AMD",
+                    "name": "Ryzen 5 3600",
+                    "frequency": "3.6 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -10055,16 +10109,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -10089,9 +10143,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 5 3600",
-                    "frequency": "3.6 GHz",
+                    "brand": "Intel",
+                    "name": "Core i5-9600K",
+                    "frequency": "3.7 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -10102,16 +10156,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -11480,53 +11534,6 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i7-7700K",
-                    "frequency": "4.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 120,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 72.89,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Germany",
-                    "city": "Dusseldorf"
-                },
-                "cpu": {
-                    "amount": 1,
                     "brand": "AMD",
                     "name": "Ryzen 7 1700X",
                     "frequency": "3.4 GHz",
@@ -11563,6 +11570,53 @@
                 },
                 "price": {
                     "value": 55.88,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Germany",
+                    "city": "Dusseldorf"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i7-7700K",
+                    "frequency": "4.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 72.89,
                     "unit": "USD"
                 },
                 "available": true
@@ -11621,9 +11675,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-9600K",
-                    "frequency": "3.7 GHz",
+                    "brand": "AMD",
+                    "name": "Ryzen 5 3600",
+                    "frequency": "3.6 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -11634,16 +11688,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -11668,9 +11722,9 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 5 3600",
-                    "frequency": "3.6 GHz",
+                    "brand": "Intel",
+                    "name": "Core i5-9600K",
+                    "frequency": "3.7 GHz",
                     "cores": 6
                 },
                 "memory": {
@@ -11681,16 +11735,16 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     },
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -30249,6 +30303,126 @@
             },
             {
                 "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2650L v3",
+                    "frequency": "1.8 GHz",
+                    "cores": 12
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 139,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2630L v3",
+                    "frequency": "1.8 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 256,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 199,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2683 v4",
+                    "frequency": "2.1 GHz",
+                    "cores": 16
+                },
+                "memory": {
+                    "value": 512,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 3,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 469,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
                     "country": "Costa Rica",
                     "city": "San Jose"
                 },
@@ -30619,126 +30793,6 @@
                 },
                 "price": {
                     "value": 459,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2650L v3",
-                    "frequency": "1.8 GHz",
-                    "cores": 12
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 139,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2630L v3",
-                    "frequency": "1.8 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 256,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 199,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2683 v4",
-                    "frequency": "2.1 GHz",
-                    "cores": 16
-                },
-                "memory": {
-                    "value": 512,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 3,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 469,
                     "unit": "USD"
                 },
                 "available": true
@@ -31203,46 +31257,6 @@
                     "city": "Seattle"
                 },
                 "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230",
-                    "frequency": "3.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 160,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 49.99,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Seattle"
-                },
-                "cpu": {
                     "amount": 2,
                     "brand": "Intel",
                     "name": "Xeon L5520",
@@ -31273,6 +31287,46 @@
                 },
                 "price": {
                     "value": 39.99,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Seattle"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230",
+                    "frequency": "3.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 160,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 30,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 49.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -31543,10 +31597,10 @@
                 },
                 "storage": [
                     {
-                        "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -31559,7 +31613,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 47.99,
+                    "value": 44.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -31583,10 +31637,10 @@
                 },
                 "storage": [
                     {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -31599,7 +31653,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 44.99,
+                    "value": 47.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -38868,7 +38922,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 636
+            "duration": 644
         },
         "servers": [
             {
