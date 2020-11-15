@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 119594
+            "duration": 92116
         },
         "servers": [
             {
@@ -3540,8 +3540,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-3220",
-                    "frequency": "3.3 GHz",
+                    "name": "Core i3-7100",
+                    "frequency": "3.9 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -3552,9 +3552,16 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
+                        "value": 1,
+                        "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -3580,8 +3587,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-7100",
-                    "frequency": "3.9 GHz",
+                    "name": "Core i3-3220",
+                    "frequency": "3.3 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -3592,16 +3599,9 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 120,
+                        "value": 500,
                         "unit": "GB",
-                        "type": "SSD",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -5324,8 +5324,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-7100",
-                    "frequency": "3.9 GHz",
+                    "name": "Core i3-3220",
+                    "frequency": "3.3 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5336,16 +5336,9 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 120,
+                        "value": 500,
                         "unit": "GB",
-                        "type": "SSD",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -5371,8 +5364,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-3220",
-                    "frequency": "3.3 GHz",
+                    "name": "Core i3-7100",
+                    "frequency": "3.9 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5383,9 +5376,16 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
+                        "value": 1,
+                        "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -30357,126 +30357,6 @@
             },
             {
                 "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2650L v3",
-                    "frequency": "1.8 GHz",
-                    "cores": 12
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 139,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2630L v3",
-                    "frequency": "1.8 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 256,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 199,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2683 v4",
-                    "frequency": "2.1 GHz",
-                    "cores": 16
-                },
-                "memory": {
-                    "value": 512,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 3,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 469,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
                     "country": "Costa Rica",
                     "city": "San Jose"
                 },
@@ -30671,12 +30551,12 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E3-1240 v6",
-                    "frequency": "3.7 GHz",
-                    "cores": 4
+                    "name": "Xeon E5-2450",
+                    "frequency": "2.1 GHz",
+                    "cores": 8
                 },
                 "memory": {
-                    "value": 8,
+                    "value": 16,
                     "unit": "GB",
                     "type": "DDR3"
                 },
@@ -30718,12 +30598,12 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E5-2450",
-                    "frequency": "2.1 GHz",
-                    "cores": 8
+                    "name": "Xeon E3-1240 v6",
+                    "frequency": "3.7 GHz",
+                    "cores": 4
                 },
                 "memory": {
-                    "value": 16,
+                    "value": 8,
                     "unit": "GB",
                     "type": "DDR3"
                 },
@@ -30847,6 +30727,126 @@
                 },
                 "price": {
                     "value": 459,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2650L v3",
+                    "frequency": "1.8 GHz",
+                    "cores": 12
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 139,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2630L v3",
+                    "frequency": "1.8 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 256,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 199,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2683 v4",
+                    "frequency": "2.1 GHz",
+                    "cores": 16
+                },
+                "memory": {
+                    "value": 512,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 3,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 469,
                     "unit": "USD"
                 },
                 "available": true
@@ -38976,7 +38976,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 737
+            "duration": 839
         },
         "servers": [
             {
