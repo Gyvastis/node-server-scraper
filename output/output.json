@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 130500
+            "duration": 124281
         },
         "servers": [
             {
@@ -5324,8 +5324,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-7100",
-                    "frequency": "3.9 GHz",
+                    "name": "Core i3-3220",
+                    "frequency": "3.3 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5336,16 +5336,9 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 120,
+                        "value": 500,
                         "unit": "GB",
-                        "type": "SSD",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -5371,8 +5364,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-3220",
-                    "frequency": "3.3 GHz",
+                    "name": "Core i3-7100",
+                    "frequency": "3.9 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5383,9 +5376,16 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
+                        "value": 1,
+                        "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -10498,53 +10498,6 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 7 1700X",
-                    "frequency": "3.4 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 120,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 56.02,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Germany",
-                    "city": "Dusseldorf"
-                },
-                "cpu": {
-                    "amount": 1,
                     "brand": "Intel",
                     "name": "Core i7-7700K",
                     "frequency": "4.2 GHz",
@@ -10581,6 +10534,53 @@
                 },
                 "price": {
                     "value": 73.07,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Germany",
+                    "city": "Dusseldorf"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "AMD",
+                    "name": "Ryzen 7 1700X",
+                    "frequency": "3.4 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 56.02,
                     "unit": "USD"
                 },
                 "available": true
@@ -12359,53 +12359,6 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 7 1700X",
-                    "frequency": "3.4 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 120,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 56.02,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Germany",
-                    "city": "Dusseldorf"
-                },
-                "cpu": {
-                    "amount": 1,
                     "brand": "Intel",
                     "name": "Core i7-7700K",
                     "frequency": "4.2 GHz",
@@ -12442,6 +12395,53 @@
                 },
                 "price": {
                     "value": 73.07,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Germany",
+                    "city": "Dusseldorf"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "AMD",
+                    "name": "Ryzen 7 1700X",
+                    "frequency": "3.4 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 56.02,
                     "unit": "USD"
                 },
                 "available": true
@@ -22445,46 +22445,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon D-1520",
-                    "frequency": "2.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 75,
-                    "unit": "USD"
-                },
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E5-1650",
                     "frequency": "3.2 GHz",
                     "cores": 6
@@ -22513,6 +22473,46 @@
                 },
                 "price": {
                     "value": 80,
+                    "unit": "USD"
+                },
+                "available": false
+            },
+            {
+                "location": {
+                    "country": "Canada",
+                    "city": "Montreal"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon D-1520",
+                    "frequency": "2.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 75,
                     "unit": "USD"
                 },
                 "available": false
@@ -25375,7 +25375,7 @@
                     "value": 30.45,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -25502,7 +25502,7 @@
                     "value": 54.81,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -25559,46 +25559,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E5-1410 v2",
-                    "frequency": "2.8 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 160,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 84.05,
-                    "unit": "USD"
-                },
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "France",
-                    "city": "Paris"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E3-1230 v3",
                     "frequency": "3.3 GHz",
                     "cores": 4
@@ -25637,6 +25597,46 @@
                     "unit": "USD"
                 },
                 "available": true
+            },
+            {
+                "location": {
+                    "country": "France",
+                    "city": "Paris"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E5-1410 v2",
+                    "frequency": "2.8 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 160,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 84.05,
+                    "unit": "USD"
+                },
+                "available": false
             },
             {
                 "location": {
@@ -25914,6 +25914,46 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
+                    "name": "Xeon E3-1230 v3",
+                    "frequency": "3.3 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 30.45,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "France",
+                    "city": "Paris"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
                     "name": "Xeon E3-1240 v3",
                     "frequency": "3.4 GHz",
                     "cores": 4
@@ -25959,46 +25999,6 @@
                     "unit": "USD"
                 },
                 "available": false
-            },
-            {
-                "location": {
-                    "country": "France",
-                    "city": "Paris"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230 v3",
-                    "frequency": "3.3 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 30.45,
-                    "unit": "USD"
-                },
-                "available": true
             },
             {
                 "location": {
@@ -39686,7 +39686,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 1239
+            "duration": 619
         },
         "servers": [
             {
