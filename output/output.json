@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 114283
+            "duration": 117970
         },
         "servers": [
             {
@@ -97,7 +97,7 @@
                     "value": 35.38,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -2247,9 +2247,9 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 256,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -2287,9 +2287,9 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 256,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -5324,8 +5324,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-3220",
-                    "frequency": "3.3 GHz",
+                    "name": "Core i3-7100",
+                    "frequency": "3.9 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5336,9 +5336,16 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
+                        "value": 1,
+                        "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 120,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -5364,8 +5371,8 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-7100",
-                    "frequency": "3.9 GHz",
+                    "name": "Core i3-3220",
+                    "frequency": "3.3 GHz",
                     "cores": 2
                 },
                 "memory": {
@@ -5376,16 +5383,9 @@
                 "storage": [
                     {
                         "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 120,
+                        "value": 500,
                         "unit": "GB",
-                        "type": "SSD",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -9847,10 +9847,10 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i9-9900K",
-                    "frequency": "3.6 GHz",
-                    "cores": 8
+                    "brand": "AMD",
+                    "name": "Ryzen 9 PRO 3900",
+                    "frequency": "3.1 GHz",
+                    "cores": 12
                 },
                 "memory": {
                     "value": 64,
@@ -9901,10 +9901,10 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 9 PRO 3900",
-                    "frequency": "3.1 GHz",
-                    "cores": 12
+                    "brand": "Intel",
+                    "name": "Core i9-9900K",
+                    "frequency": "3.6 GHz",
+                    "cores": 8
                 },
                 "memory": {
                     "value": 64,
@@ -11708,10 +11708,10 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i9-9900K",
-                    "frequency": "3.6 GHz",
-                    "cores": 8
+                    "brand": "AMD",
+                    "name": "Ryzen 9 PRO 3900",
+                    "frequency": "3.1 GHz",
+                    "cores": 12
                 },
                 "memory": {
                     "value": 64,
@@ -11762,10 +11762,10 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 9 PRO 3900",
-                    "frequency": "3.1 GHz",
-                    "cores": 12
+                    "brand": "Intel",
+                    "name": "Core i9-9900K",
+                    "frequency": "3.6 GHz",
+                    "cores": 8
                 },
                 "memory": {
                     "value": 64,
@@ -16051,6 +16051,53 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
+                    "name": "Xeon E3-1230",
+                    "frequency": "3.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 132.99,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
                     "name": "Core i7-7700",
                     "frequency": "3.6 GHz",
                     "cores": 4
@@ -16102,17 +16149,17 @@
                 },
                 "storage": [
                     {
-                        "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
+                        "amount": 2,
                         "value": 1,
                         "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -16125,7 +16172,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.99,
+                    "value": 157.39,
                     "unit": "USD"
                 },
                 "available": true
@@ -16154,53 +16201,6 @@
                         "unit": "GB",
                         "type": "SSD",
                         "connType": "NVMe"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 157.39,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Portugal",
-                    "city": "Lisbon"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230",
-                    "frequency": "3.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -24797,7 +24797,7 @@
                     }
                 ],
                 "bandwidthSpeed": {
-                    "value": 10,
+                    "value": 100,
                     "unit": "Mbps"
                 },
                 "bandwidthLimit": {
@@ -24837,7 +24837,7 @@
                     }
                 ],
                 "bandwidthSpeed": {
-                    "value": 100,
+                    "value": 10,
                     "unit": "Mbps"
                 },
                 "bandwidthLimit": {
@@ -29461,22 +29461,22 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230 v3",
-                    "frequency": "3.3 GHz",
-                    "cores": 4
+                    "brand": "AMD",
+                    "name": "Ryzen 7 1700",
+                    "frequency": "3 GHz",
+                    "cores": 8
                 },
                 "memory": {
                     "value": 16,
                     "unit": "GB",
-                    "type": "DDR3"
+                    "type": "DDR4"
                 },
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -29501,22 +29501,22 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 7 1700",
-                    "frequency": "3 GHz",
-                    "cores": 8
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230 v3",
+                    "frequency": "3.3 GHz",
+                    "cores": 4
                 },
                 "memory": {
                     "value": 16,
                     "unit": "GB",
-                    "type": "DDR4"
+                    "type": "DDR3"
                 },
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -32321,10 +32321,10 @@
                 },
                 "storage": [
                     {
-                        "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -32337,7 +32337,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 47.99,
+                    "value": 44.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -32361,10 +32361,10 @@
                 },
                 "storage": [
                     {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -32377,7 +32377,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 44.99,
+                    "value": 47.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -39646,7 +39646,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 748
+            "duration": 641
         },
         "servers": [
             {
