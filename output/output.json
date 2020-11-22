@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 117970
+            "duration": 113855
         },
         "servers": [
             {
@@ -2047,9 +2047,9 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 128,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -2065,7 +2065,7 @@
                     "value": 145.18,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -2087,9 +2087,9 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 128,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -2105,7 +2105,7 @@
                     "value": 145.18,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -2247,9 +2247,9 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 256,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -2287,9 +2287,9 @@
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 256,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -22405,46 +22405,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E5-1650",
-                    "frequency": "3.2 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 3,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 80,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon D-1520",
                     "frequency": "2.2 GHz",
                     "cores": 4
@@ -22476,6 +22436,46 @@
                     "unit": "USD"
                 },
                 "available": false
+            },
+            {
+                "location": {
+                    "country": "Canada",
+                    "city": "Montreal"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E5-1650",
+                    "frequency": "3.2 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 3,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 80,
+                    "unit": "USD"
+                },
+                "available": true
             },
             {
                 "location": {
@@ -24797,7 +24797,7 @@
                     }
                 ],
                 "bandwidthSpeed": {
-                    "value": 100,
+                    "value": 10,
                     "unit": "Mbps"
                 },
                 "bandwidthLimit": {
@@ -24837,7 +24837,7 @@
                     }
                 ],
                 "bandwidthSpeed": {
-                    "value": 10,
+                    "value": 100,
                     "unit": "Mbps"
                 },
                 "bandwidthLimit": {
@@ -25335,7 +25335,7 @@
                     "value": 30.5,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -25462,7 +25462,7 @@
                     "value": 54.9,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -29461,22 +29461,22 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 7 1700",
-                    "frequency": "3 GHz",
-                    "cores": 8
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230 v3",
+                    "frequency": "3.3 GHz",
+                    "cores": 4
                 },
                 "memory": {
                     "value": 16,
                     "unit": "GB",
-                    "type": "DDR4"
+                    "type": "DDR3"
                 },
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -29501,22 +29501,22 @@
                 },
                 "cpu": {
                     "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230 v3",
-                    "frequency": "3.3 GHz",
-                    "cores": 4
+                    "brand": "AMD",
+                    "name": "Ryzen 7 1700",
+                    "frequency": "3 GHz",
+                    "cores": 8
                 },
                 "memory": {
                     "value": 16,
                     "unit": "GB",
-                    "type": "DDR3"
+                    "type": "DDR4"
                 },
                 "storage": [
                     {
                         "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
                         "connType": "SATA"
                     }
                 ],
@@ -31221,12 +31221,12 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E3-1240 v6",
-                    "frequency": "3.7 GHz",
-                    "cores": 4
+                    "name": "Xeon E5-2450",
+                    "frequency": "2.1 GHz",
+                    "cores": 8
                 },
                 "memory": {
-                    "value": 8,
+                    "value": 16,
                     "unit": "GB",
                     "type": "DDR3"
                 },
@@ -31268,12 +31268,12 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E5-2450",
-                    "frequency": "2.1 GHz",
-                    "cores": 8
+                    "name": "Xeon E3-1240 v6",
+                    "frequency": "3.7 GHz",
+                    "cores": 4
                 },
                 "memory": {
-                    "value": 16,
+                    "value": 8,
                     "unit": "GB",
                     "type": "DDR3"
                 },
@@ -39646,7 +39646,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 641
+            "duration": 775
         },
         "servers": [
             {
