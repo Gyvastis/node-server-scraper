@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 126292
+            "duration": 127546
         },
         "servers": [
             {
@@ -8367,6 +8367,46 @@
                     "city": "Dallas"
                 },
                 "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2630L v2",
+                    "frequency": "2.4 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 129,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Dallas"
+                },
+                "cpu": {
                     "amount": 1,
                     "brand": "Intel",
                     "name": "Xeon E3-1230 v3",
@@ -15957,6 +15997,53 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
+                    "name": "Xeon E3-1230",
+                    "frequency": "3.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 132.99,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
                     "name": "Core i7-7700",
                     "frequency": "3.6 GHz",
                     "cores": 4
@@ -16008,17 +16095,17 @@
                 },
                 "storage": [
                     {
-                        "amount": 1,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
+                        "amount": 2,
                         "value": 1,
                         "unit": "TB",
                         "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
                         "connType": "SATA"
                     }
                 ],
@@ -16031,7 +16118,7 @@
                     "unit": ""
                 },
                 "price": {
-                    "value": 132.99,
+                    "value": 157.39,
                     "unit": "USD"
                 },
                 "available": true
@@ -16060,53 +16147,6 @@
                         "unit": "GB",
                         "type": "SSD",
                         "connType": "NVMe"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 157.39,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Portugal",
-                    "city": "Lisbon"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230",
-                    "frequency": "3.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -17109,6 +17149,166 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
+                    "name": "Xeon E3-1230 v2",
+                    "frequency": "3.3 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 100,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 30,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Los Angeles"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230 v3",
+                    "frequency": "3.3 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 100,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 35,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Los Angeles"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1270 v2",
+                    "frequency": "3.5 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 99,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Los Angeles"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2620 v2",
+                    "frequency": "2.1 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 199,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Los Angeles"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
                     "name": "Atom D525",
                     "frequency": "1.8 GHz",
                     "cores": 2
@@ -17274,53 +17474,6 @@
                     "unit": "USD"
                 },
                 "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Los Angeles"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1240 v2",
-                    "frequency": "3.4 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 256,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 100,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 59,
-                    "unit": "USD"
-                },
-                "available": false
             },
             {
                 "location": {
@@ -17730,53 +17883,6 @@
                     "city": "Los Angeles"
                 },
                 "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2630L",
-                    "frequency": "2 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 250,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 129,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Los Angeles"
-                },
-                "cpu": {
                     "amount": 1,
                     "brand": "Intel",
                     "name": "Xeon E3-1270 v3",
@@ -17814,6 +17920,53 @@
                 },
                 "price": {
                     "value": 115,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Los Angeles"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2630L",
+                    "frequency": "2 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 250,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 129,
                     "unit": "USD"
                 },
                 "available": true
@@ -22591,53 +22744,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E3-1270 v6",
-                    "frequency": "3.8 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 256,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 120.78,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "Moscow"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E-2246G",
                     "frequency": "3.6 GHz",
                     "cores": 6
@@ -22666,6 +22772,46 @@
                 },
                 "price": {
                     "value": 206.19,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Russia",
+                    "city": "Moscow"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1270 v6",
+                    "frequency": "3.8 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 5,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 54.9,
                     "unit": "USD"
                 },
                 "available": true
@@ -23926,7 +24072,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 169,
+                    "value": 169.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -25154,7 +25300,7 @@
                     "value": 17.08,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -25241,7 +25387,7 @@
                     "value": 30.5,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -25281,7 +25427,7 @@
                     "value": 26.84,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
             },
             {
                 "location": {
@@ -25425,46 +25571,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E5-1410 v2",
-                    "frequency": "2.8 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 160,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 84.18,
-                    "unit": "USD"
-                },
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "France",
-                    "city": "Paris"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E3-1230 v3",
                     "frequency": "3.3 GHz",
                     "cores": 4
@@ -25503,6 +25609,46 @@
                     "unit": "USD"
                 },
                 "available": true
+            },
+            {
+                "location": {
+                    "country": "France",
+                    "city": "Paris"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E5-1410 v2",
+                    "frequency": "2.8 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 160,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 84.18,
+                    "unit": "USD"
+                },
+                "available": false
             },
             {
                 "location": {
@@ -25730,7 +25876,7 @@
                     "value": 19.52,
                     "unit": "USD"
                 },
-                "available": true
+                "available": false
             },
             {
                 "location": {
@@ -25770,7 +25916,47 @@
                     "value": 21.96,
                     "unit": "USD"
                 },
-                "available": false
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "France",
+                    "city": "Paris"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230 v3",
+                    "frequency": "3.3 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 30.5,
+                    "unit": "USD"
+                },
+                "available": true
             },
             {
                 "location": {
@@ -25810,46 +25996,6 @@
                         "unit": "GB",
                         "type": "HDD",
                         "connType": "SAS"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 30.5,
-                    "unit": "USD"
-                },
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "France",
-                    "city": "Paris"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230 v3",
-                    "frequency": "3.3 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -30933,6 +31079,126 @@
             },
             {
                 "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2650L v3",
+                    "frequency": "1.8 GHz",
+                    "cores": 12
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 139,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2630L v3",
+                    "frequency": "1.8 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 256,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 199,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2683 v4",
+                    "frequency": "2.1 GHz",
+                    "cores": 16
+                },
+                "memory": {
+                    "value": 512,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 3,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 469,
+                    "unit": "USD"
+                },
+                "available": true
+            },
+            {
+                "location": {
                     "country": "Costa Rica",
                     "city": "San Jose"
                 },
@@ -31303,126 +31569,6 @@
                 },
                 "price": {
                     "value": 459,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2650L v3",
-                    "frequency": "1.8 GHz",
-                    "cores": 12
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 139,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2630L v3",
-                    "frequency": "1.8 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 256,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 199,
-                    "unit": "USD"
-                },
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "San Jose"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2683 v4",
-                    "frequency": "2.1 GHz",
-                    "cores": 16
-                },
-                "memory": {
-                    "value": 512,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 3,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 469,
                     "unit": "USD"
                 },
                 "available": true
@@ -32187,8 +32333,8 @@
                 },
                 "storage": [
                     {
-                        "amount": 1,
-                        "value": 2,
+                        "amount": 2,
+                        "value": 1,
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
@@ -32203,7 +32349,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 45.99,
+                    "value": 44.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -32227,8 +32373,8 @@
                 },
                 "storage": [
                     {
-                        "amount": 2,
-                        "value": 1,
+                        "amount": 1,
+                        "value": 2,
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
@@ -32243,7 +32389,7 @@
                     "unit": "TB"
                 },
                 "price": {
-                    "value": 44.99,
+                    "value": 45.99,
                     "unit": "USD"
                 },
                 "available": true
@@ -39552,7 +39698,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 648
+            "duration": 732
         },
         "servers": [
             {
