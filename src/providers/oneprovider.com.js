@@ -181,8 +181,8 @@ module.exports = async () => {
   let currentUrl = 0;
   const totalUrls = urls.length
 
-  return await Promise.map(urls.slice(0, 1), url => OneFetch(url)
-  // return await Promise.map(urls, url => OneFetch(url)
+  // return await Promise.map(urls.slice(0, 1), url => OneFetch(url)
+  return await Promise.map(urls, url => OneFetch(url)
     .then(servers => {
       console.log(`[${++currentUrl}/${totalUrls}] https://oneprovider.com${url}`)
       return servers;
