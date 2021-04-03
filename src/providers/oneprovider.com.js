@@ -114,12 +114,15 @@ const OneFetch = uri =>
         },
         priceNormalValue: {
           selector: '.res-price .currency-code-usd .price-normal',
+          how: 'text',
         },
         priceNewValue: {
           selector: '.res-price .currency-code-usd .price-new-amount',
+          how: 'text',
         },
         priceUnit: {
-          selector: '.res-price .currency-code-usd .price-normal .price-sign'
+          selector: '.res-price .currency-code-usd .price-normal .price-sign',
+          how: 'text',
         },
         available: {
           selector: '.res-stock .res-tooltip',
@@ -162,7 +165,7 @@ const OneFetch = uri =>
       unit: server.bandwidthLimitUnit,
     },
     price: {
-      value: parseFloat(server.priceNewValue > 0 ? server.priceNewValue.replace(server.priceUnit, '') : server.priceNormalValue.replace(server.priceUnit, '')),
+      value: parseFloat(server.priceNewValue ? server.priceNewValue.replace(server.priceUnit, '') : server.priceNormalValue.replace(server.priceUnit, '')),
       unit: 'USD',
     },
     available: server.available,
