@@ -124,6 +124,10 @@ const OneFetch = uri =>
           selector: '.res-price .currency-code-usd .price-normal .price-sign',
           how: 'text',
         },
+        url: {
+          selector: '.res-buybutton a',
+          attr: 'href'
+        },
         available: {
           selector: '.res-stock .res-tooltip',
           attr: 'data-tooltip',
@@ -168,6 +172,7 @@ const OneFetch = uri =>
       value: parseFloat(server.priceNewValue ? server.priceNewValue.replace(server.priceUnit, '') : server.priceNormalValue.replace(server.priceUnit, '')),
       unit: 'USD',
     },
+    url: server.available ? `https://oneprovider.com${server.url}` : null,
     available: server.available,
   })));
 
@@ -176,7 +181,8 @@ module.exports = async () => {
   let currentUrl = 0;
   const totalUrls = urls.length
 
-  return await Promise.map(urls, url => OneFetch(url)
+  return await Promise.map(urls.slice(0, 1), url => OneFetch(url)
+  // return await Promise.map(urls, url => OneFetch(url)
     .then(servers => {
       console.log(`[${++currentUrl}/${totalUrls}] https://oneprovider.com${url}`)
       return servers;
