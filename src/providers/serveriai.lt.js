@@ -114,10 +114,10 @@ const OneFetch = () =>
                     ...server.price,
                     value: server.price.value + 1.0
                 },
-                storage: {
+                storage: [{
                     ...server.storage[0],
                     type: 'SSD',
-                },
+                }],
             });
             serversAll.push({
                 ...server,
@@ -129,10 +129,10 @@ const OneFetch = () =>
                     value: 1,
                     unit: 'Gbps',
                 },
-                storage: {
+                storage: [{
                     ...server.storage[0],
                     type: 'SSD',
-                },
+                }],
             });
         })
 
