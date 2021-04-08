@@ -2,7 +2,7 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 139835
+            "duration": 139546
         },
         "servers": [
             {
@@ -143,47 +143,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Xeon E5-2420",
-                    "frequency": "1.9 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 4,
-                        "value": 8,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 100,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 96.5,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4322",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Netherlands",
-                    "city": "Amsterdam"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E3-1270 v6",
                     "frequency": "3.8 GHz",
                     "cores": 4
@@ -222,6 +181,47 @@
                     "unit": "USD"
                 },
                 "url": "https://oneprovider.com/order/item/dediconf/4268",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Netherlands",
+                    "city": "Amsterdam"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2420",
+                    "frequency": "1.9 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 4,
+                        "value": 8,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 100,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 96.5,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4322",
                 "available": true
             },
             {
@@ -10857,8 +10857,8 @@
                     "value": 15.87,
                     "unit": "USD"
                 },
-                "url": "https://oneprovider.com/order/item/dediconf/3031",
-                "available": true
+                "url": null,
+                "available": false
             },
             {
                 "location": {
@@ -12914,8 +12914,8 @@
                     "value": 15.87,
                     "unit": "USD"
                 },
-                "url": "https://oneprovider.com/order/item/dediconf/3031",
-                "available": true
+                "url": null,
+                "available": false
             },
             {
                 "location": {
@@ -29520,22 +29520,22 @@
                 "cpu": {
                     "amount": 2,
                     "brand": "Intel",
-                    "name": "Xeon Silver 4114",
-                    "frequency": "2.2 GHz",
-                    "cores": 10
+                    "name": "Xeon E5-2620",
+                    "frequency": "2 GHz",
+                    "cores": 6
                 },
                 "memory": {
                     "value": 128,
                     "unit": "GB",
-                    "type": "DDR4"
+                    "type": "DDR3"
                 },
                 "storage": [
                     {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "NVMe"
+                        "amount": 3,
+                        "value": 600,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SAS"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -29561,22 +29561,22 @@
                 "cpu": {
                     "amount": 2,
                     "brand": "Intel",
-                    "name": "Xeon E5-2620",
-                    "frequency": "2 GHz",
-                    "cores": 6
+                    "name": "Xeon Silver 4114",
+                    "frequency": "2.2 GHz",
+                    "cores": 10
                 },
                 "memory": {
                     "value": 128,
                     "unit": "GB",
-                    "type": "DDR3"
+                    "type": "DDR4"
                 },
                 "storage": [
                     {
-                        "amount": 3,
-                        "value": 600,
-                        "unit": "GB",
-                        "type": "HDD",
-                        "connType": "SAS"
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "NVMe"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -34789,47 +34789,6 @@
                     "city": "Seattle"
                 },
                 "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon L5520",
-                    "frequency": "2.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 48,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 36.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/1894",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Seattle"
-                },
-                "cpu": {
                     "amount": 1,
                     "brand": "Intel",
                     "name": "Xeon E3-1230",
@@ -34863,6 +34822,47 @@
                     "unit": "USD"
                 },
                 "url": "https://oneprovider.com/order/item/dediconf/2955",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Seattle"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon L5520",
+                    "frequency": "2.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 48,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 30,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 36.99,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/1894",
                 "available": true
             },
             {
@@ -35137,8 +35137,8 @@
                 },
                 "storage": [
                     {
-                        "amount": 1,
-                        "value": 2,
+                        "amount": 2,
+                        "value": 1,
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
@@ -35156,7 +35156,7 @@
                     "value": 41.99,
                     "unit": "USD"
                 },
-                "url": "https://oneprovider.com/order/item/dediconf/1895",
+                "url": "https://oneprovider.com/order/item/dediconf/2649",
                 "available": true
             },
             {
@@ -35178,8 +35178,8 @@
                 },
                 "storage": [
                     {
-                        "amount": 2,
-                        "value": 1,
+                        "amount": 1,
+                        "value": 2,
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
@@ -35197,7 +35197,7 @@
                     "value": 41.99,
                     "unit": "USD"
                 },
-                "url": "https://oneprovider.com/order/item/dediconf/2649",
+                "url": "https://oneprovider.com/order/item/dediconf/1895",
                 "available": true
             },
             {
@@ -43633,7 +43633,7 @@
     {
         "meta": {
             "provider": "serveriai.lt",
-            "duration": 728
+            "duration": 598
         },
         "servers": [
             {
