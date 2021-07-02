@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
-const scrapeIt = require('scrape-it')
+const scrapeIt = require('scrape-it');
 
 const ProviderFetch = () =>
     fetch('https://www.dedikuoti.lt/');

@@ -2,8 +2,7 @@ const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 const scrapeIt = require('scrape-it')
 const Promise = require('bluebird');
-
-// todo: include correct (robot) user-agent
+const RandomUseragent = require('random-useragent');
 
 const ProviderFetch = url => fetch(url, {
   "headers": {
@@ -18,7 +17,8 @@ const ProviderFetch = url => fetch(url, {
     "sec-fetch-user": "?1",
     "sec-gpc": "1",
     "upgrade-insecure-requests": "1",
-    "cookie": "__cfduid=da30b316c5c45a2bd24792c493c36ed291603010443; cookie-policy=seen"
+    "cookie": "__cfduid=da30b316c5c45a2bd24792c493c36ed291603010443; cookie-policy=seen",
+    "user-agent": RandomUseragent.getRandom()
   },
   "referrer": "https://oneprovider.com/",
   "referrerPolicy": "strict-origin-when-cross-origin",
