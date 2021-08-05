@@ -2,9 +2,57 @@
     {
         "meta": {
             "provider": "oneprovider.com",
-            "duration": 129312
+            "duration": 178779
         },
         "servers": [
+            {
+                "location": {
+                    "country": "Netherlands",
+                    "city": "Amsterdam"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Atom C2350",
+                    "frequency": "1.7 GHz",
+                    "cores": 2
+                },
+                "memory": {
+                    "value": 4,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 128,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 8.53,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/2833",
+                "available": true
+            },
             {
                 "location": {
                     "country": "Netherlands",
@@ -1124,54 +1172,6 @@
             },
             {
                 "location": {
-                    "country": "Netherlands",
-                    "city": "Amsterdam"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Atom C2350",
-                    "frequency": "1.7 GHz",
-                    "cores": 2
-                },
-                "memory": {
-                    "value": 4,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 1,
-                        "value": 128,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 8.53,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
                     "country": "Turkey",
                     "city": "Ankara"
                 },
@@ -1544,6 +1544,136 @@
                     "unit": "USD"
                 },
                 "url": "https://oneprovider.com/order/item/dediconf/4348",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "New Zealand",
+                    "city": "Auckland"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1241 v3",
+                    "frequency": "3.5 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 4,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 189,
+                    "unit": "USD"
+                },
+                "url": null,
+                "available": false
+            },
+            {
+                "location": {
+                    "country": "New Zealand",
+                    "city": "Auckland"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2670",
+                    "frequency": "2.6 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 4,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 299,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/2061",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "New Zealand",
+                    "city": "Auckland"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2670",
+                    "frequency": "2.6 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 4,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 4,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 345,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/2062",
                 "available": true
             },
             {
@@ -9286,6 +9416,129 @@
             },
             {
                 "location": {
+                    "country": "United States",
+                    "city": "Detroit"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i3-4170",
+                    "frequency": "3.7 GHz",
+                    "cores": 2
+                },
+                "memory": {
+                    "value": 8,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 199,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4295",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Detroit"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1220 v6",
+                    "frequency": "3 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 8,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 15,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 299,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4296",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Detroit"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2620 v4",
+                    "frequency": "2 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 449,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4297",
+                "available": true
+            },
+            {
+                "location": {
                     "country": "United Arab Emirates",
                     "city": "Dubai"
                 },
@@ -9994,8 +10247,8 @@
                     "value": 15.86,
                     "unit": "USD"
                 },
-                "url": null,
-                "available": false
+                "url": "https://oneprovider.com/order/item/dediconf/3031",
+                "available": true
             },
             {
                 "location": {
@@ -11673,6 +11926,390 @@
             },
             {
                 "location": {
+                    "country": "United States",
+                    "city": "Edison"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1270 v6",
+                    "frequency": "3.8 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 122.55,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4308",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Edison"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E-2146G",
+                    "frequency": "3.5 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 179.55,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4310",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Edison"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E-2236",
+                    "frequency": "3.4 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 236.55,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4307",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Edison"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "AMD",
+                    "name": "Ryzen 9 3950X",
+                    "frequency": "3.5 GHz",
+                    "cores": 16
+                },
+                "memory": {
+                    "value": 128,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 274.55,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4313",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Edison"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2695 v2",
+                    "frequency": "2.4 GHz",
+                    "cores": 12
+                },
+                "memory": {
+                    "value": 128,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 284.05,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4312",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Edison"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon Silver 4210",
+                    "frequency": "2.2 GHz",
+                    "cores": 10
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 445.55,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4314",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Edison"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1270 v6",
+                    "frequency": "3.8 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 160.55,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4337",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Edison"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2695 v2",
+                    "frequency": "2.4 GHz",
+                    "cores": 12
+                },
+                "memory": {
+                    "value": 128,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 284.05,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4338",
+                "available": true
+            },
+            {
+                "location": {
                     "country": "Germany",
                     "city": "Dusseldorf"
                 },
@@ -11709,8 +12346,8 @@
                     "value": 15.86,
                     "unit": "USD"
                 },
-                "url": null,
-                "available": false
+                "url": "https://oneprovider.com/order/item/dediconf/3031",
+                "available": true
             },
             {
                 "location": {
@@ -16208,6 +16845,698 @@
             },
             {
                 "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Celeron N3150",
+                    "frequency": "1 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 4,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 35.41,
+                    "unit": "USD"
+                },
+                "url": null,
+                "available": false
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Celeron J3455",
+                    "frequency": "1.5 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 4,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 42.73,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/1212",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Celeron J3455",
+                    "frequency": "1.5 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 8,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 54.94,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/1210",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i3-9100",
+                    "frequency": "3.6 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 240,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "NVMe"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 79.36,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/1209",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230",
+                    "frequency": "3.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 8,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 250,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 108.65,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/270",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230",
+                    "frequency": "3.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 133.07,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/271",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i7-7700",
+                    "frequency": "3.6 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 480,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 133.07,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/2692",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230",
+                    "frequency": "3.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 157.49,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/272",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i7-9700",
+                    "frequency": "3 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 480,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "NVMe"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 157.49,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/1214",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230 v3",
+                    "frequency": "3.3 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 169.7,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/268",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1230 v3",
+                    "frequency": "3.3 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 181.91,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/265",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Core i7-9700",
+                    "frequency": "3 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 960,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "NVMe"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 194.12,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/1206",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1220 v5",
+                    "frequency": "3 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 255.16,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/267",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2630 v3",
+                    "frequency": "2.4 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 279.58,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/266",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Portugal",
+                    "city": "Lisbon"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2690 v3",
+                    "frequency": "2.6 GHz",
+                    "cores": 12
+                },
+                "memory": {
+                    "value": 128,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    },
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 316.2,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/269",
+                "available": true
+            },
+            {
+                "location": {
                     "country": "Slovenia",
                     "city": "Ljubljana"
                 },
@@ -19529,6 +20858,211 @@
             },
             {
                 "location": {
+                    "country": "United States",
+                    "city": "McLean"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E-2136",
+                    "frequency": "3.3 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 100,
+                    "unit": "Mbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 249,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/355",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "McLean"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1270 v6",
+                    "frequency": "3.8 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 16,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 100,
+                    "unit": "Mbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 249,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/356",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "McLean"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon Bronze 3106",
+                    "frequency": "1.7 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 100,
+                    "unit": "Mbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 389,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/354",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "McLean"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon Silver 4110",
+                    "frequency": "2.1 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 100,
+                    "unit": "Mbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 529,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/353",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "McLean"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon Gold 6140",
+                    "frequency": "2.3 GHz",
+                    "cores": 18
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 100,
+                    "unit": "Mbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 1999,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/352",
+                "available": true
+            },
+            {
+                "location": {
                     "country": "Australia",
                     "city": "Melbourne"
                 },
@@ -21448,930 +22982,6 @@
                     "unit": "USD"
                 },
                 "url": "https://oneprovider.com/order/item/dediconf/3827",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i3-2130",
-                    "frequency": "3.4 GHz",
-                    "cores": 2
-                },
-                "memory": {
-                    "value": 8,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 100,
-                    "unit": "Mbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 15.99,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i5-2300",
-                    "frequency": "2.8 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 100,
-                    "unit": "Mbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 20.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2102",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i7-4790K",
-                    "frequency": "4 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 120,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 250,
-                    "unit": "Mbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 34.99,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1245 v2",
-                    "frequency": "3.4 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 3,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 480,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 39.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4092",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i7-4790K",
-                    "frequency": "4 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 250,
-                    "unit": "Mbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 44.99,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon D-1520",
-                    "frequency": "2.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 4,
-                        "value": 3,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 44.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/3479",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230 v6",
-                    "frequency": "3.5 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 74.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/8",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i7-7700K",
-                    "frequency": "4.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 89.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4387",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E5-1650 v4",
-                    "frequency": "3.6 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 99.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2837",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E-2136",
-                    "frequency": "3.3 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "NVMe"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 99.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4388",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon D-1541",
-                    "frequency": "2 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 16,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 4,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 104.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/1",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon D-2141I",
-                    "frequency": "2.2 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "NVMe"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 114.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4391",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon D-1540",
-                    "frequency": "2 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 4,
-                        "value": 12,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 194.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4389",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 5 3600X",
-                    "frequency": "3.8 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "NVMe"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 119.99,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 7 3800X",
-                    "frequency": "3.9 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 960,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "NVMe"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 174.99,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E-2274G",
-                    "frequency": "4 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 960,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "NVMe"
-                    },
-                    {
-                        "amount": 3,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 134.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4392",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E-2288G",
-                    "frequency": "3.7 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 960,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "NVMe"
-                    },
-                    {
-                        "amount": 3,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 159.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4393",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1270 v6",
-                    "frequency": "3.8 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 20,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 179.99,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E-2146G",
-                    "frequency": "3.5 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 20,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 209.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4343",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2620 v4",
-                    "frequency": "2 GHz",
-                    "cores": 8
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 20,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 269.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4330",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Canada",
-                    "city": "Montreal"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon Silver 4210",
-                    "frequency": "2.2 GHz",
-                    "cores": 10
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 500,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 10,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 20,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 379.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/4344",
                 "available": true
             },
             {
@@ -25147,6 +25757,88 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
+                    "name": "Core i3-530",
+                    "frequency": "2.9 GHz",
+                    "cores": 2
+                },
+                "memory": {
+                    "value": 4,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 12.2,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/38",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "France",
+                    "city": "Paris"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1220",
+                    "frequency": "3.1 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 8,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 15.87,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/2708",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "France",
+                    "city": "Paris"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
                     "name": "Xeon X3450",
                     "frequency": "2.6 GHz",
                     "cores": 4
@@ -25315,6 +26007,47 @@
                     "unit": "USD"
                 },
                 "url": "https://oneprovider.com/order/item/dediconf/2709",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "France",
+                    "city": "Paris"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E3-1220",
+                    "frequency": "3.1 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 2,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": null,
+                    "unit": ""
+                },
+                "price": {
+                    "value": 31.74,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4439",
                 "available": true
             },
             {
@@ -26222,88 +26955,6 @@
                 "cpu": {
                     "amount": 1,
                     "brand": "Intel",
-                    "name": "Core i3-530",
-                    "frequency": "2.9 GHz",
-                    "cores": 2
-                },
-                "memory": {
-                    "value": 4,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 12.2,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "France",
-                    "city": "Paris"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1220",
-                    "frequency": "3.1 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 8,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 15.87,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "France",
-                    "city": "Paris"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
                     "name": "Xeon E3-1230 v2",
                     "frequency": "3.3 GHz",
                     "cores": 4
@@ -26387,47 +27038,6 @@
                 },
                 "price": {
                     "value": 30.52,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "France",
-                    "city": "Paris"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1220",
-                    "frequency": "3.1 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": null,
-                    "unit": ""
-                },
-                "price": {
-                    "value": 31.74,
                     "unit": "USD"
                 },
                 "url": null,
@@ -26777,22 +27387,22 @@
                 "cpu": {
                     "amount": 2,
                     "brand": "Intel",
-                    "name": "Xeon Silver 4114",
-                    "frequency": "2.2 GHz",
-                    "cores": 10
+                    "name": "Xeon E5-2620",
+                    "frequency": "2 GHz",
+                    "cores": 6
                 },
                 "memory": {
                     "value": 128,
                     "unit": "GB",
-                    "type": "DDR4"
+                    "type": "DDR3"
                 },
                 "storage": [
                     {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "NVMe"
+                        "amount": 3,
+                        "value": 600,
+                        "unit": "GB",
+                        "type": "HDD",
+                        "connType": "SAS"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -26818,22 +27428,22 @@
                 "cpu": {
                     "amount": 2,
                     "brand": "Intel",
-                    "name": "Xeon E5-2620",
-                    "frequency": "2 GHz",
-                    "cores": 6
+                    "name": "Xeon Silver 4114",
+                    "frequency": "2.2 GHz",
+                    "cores": 10
                 },
                 "memory": {
                     "value": 128,
                     "unit": "GB",
-                    "type": "DDR3"
+                    "type": "DDR4"
                 },
                 "storage": [
                     {
-                        "amount": 3,
-                        "value": 600,
-                        "unit": "GB",
-                        "type": "HDD",
-                        "connType": "SAS"
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "NVMe"
                     }
                 ],
                 "bandwidthSpeed": {
@@ -31392,6 +32002,211 @@
             },
             {
                 "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2650L v3",
+                    "frequency": "1.8 GHz",
+                    "cores": 12
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 139,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4246",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2630L v3",
+                    "frequency": "1.8 GHz",
+                    "cores": 8
+                },
+                "memory": {
+                    "value": 256,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 199,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4247",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "San Jose"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon E5-2683 v4",
+                    "frequency": "2.1 GHz",
+                    "cores": 16
+                },
+                "memory": {
+                    "value": 512,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 2,
+                        "value": 3,
+                        "unit": "TB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 10,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 469,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4248",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Chile",
+                    "city": "Santiago"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E-2276G",
+                    "frequency": "3.8 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 32,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 289,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4326",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "Chile",
+                    "city": "Santiago"
+                },
+                "cpu": {
+                    "amount": 1,
+                    "brand": "Intel",
+                    "name": "Xeon E-2236",
+                    "frequency": "3.4 GHz",
+                    "cores": 6
+                },
+                "memory": {
+                    "value": 64,
+                    "unit": "GB",
+                    "type": "DDR4"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 500,
+                        "unit": "GB",
+                        "type": "SSD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 20,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 319,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/4325",
+                "available": true
+            },
+            {
+                "location": {
                     "country": "Brazil",
                     "city": "São Paulo"
                 },
@@ -31991,47 +32806,6 @@
                     "city": "Seattle"
                 },
                 "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon L5520",
-                    "frequency": "2.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 48,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 1,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 10,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 36.99,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/1894",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "United States",
-                    "city": "Seattle"
-                },
-                "cpu": {
                     "amount": 1,
                     "brand": "Intel",
                     "name": "Xeon E3-1230",
@@ -32065,6 +32839,47 @@
                     "unit": "USD"
                 },
                 "url": "https://oneprovider.com/order/item/dediconf/2955",
+                "available": true
+            },
+            {
+                "location": {
+                    "country": "United States",
+                    "city": "Seattle"
+                },
+                "cpu": {
+                    "amount": 2,
+                    "brand": "Intel",
+                    "name": "Xeon L5520",
+                    "frequency": "2.2 GHz",
+                    "cores": 4
+                },
+                "memory": {
+                    "value": 48,
+                    "unit": "GB",
+                    "type": "DDR3"
+                },
+                "storage": [
+                    {
+                        "amount": 1,
+                        "value": 1,
+                        "unit": "TB",
+                        "type": "HDD",
+                        "connType": "SATA"
+                    }
+                ],
+                "bandwidthSpeed": {
+                    "value": 1,
+                    "unit": "Gbps"
+                },
+                "bandwidthLimit": {
+                    "value": 10,
+                    "unit": "TB"
+                },
+                "price": {
+                    "value": 36.99,
+                    "unit": "USD"
+                },
+                "url": "https://oneprovider.com/order/item/dediconf/1894",
                 "available": true
             },
             {
@@ -32168,8 +32983,8 @@
                 },
                 "storage": [
                     {
-                        "amount": 1,
-                        "value": 2,
+                        "amount": 2,
+                        "value": 1,
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
@@ -32187,7 +33002,7 @@
                     "value": 39.99,
                     "unit": "USD"
                 },
-                "url": "https://oneprovider.com/order/item/dediconf/1895",
+                "url": "https://oneprovider.com/order/item/dediconf/2649",
                 "available": true
             },
             {
@@ -32209,8 +33024,8 @@
                 },
                 "storage": [
                     {
-                        "amount": 2,
-                        "value": 1,
+                        "amount": 1,
+                        "value": 2,
                         "unit": "TB",
                         "type": "HDD",
                         "connType": "SATA"
@@ -32228,7 +33043,7 @@
                     "value": 39.99,
                     "unit": "USD"
                 },
-                "url": "https://oneprovider.com/order/item/dediconf/2649",
+                "url": "https://oneprovider.com/order/item/dediconf/1895",
                 "available": true
             },
             {
@@ -33885,594 +34700,6 @@
                     "unit": "USD"
                 },
                 "url": "https://oneprovider.com/order/item/dediconf/3915",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon L5630",
-                    "frequency": "2.1 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 24,
-                    "unit": "GB",
-                    "type": "DDR3"
-                },
-                "storage": [
-                    {
-                        "amount": 4,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 47.61,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "AMD",
-                    "name": "Ryzen 5 3400G",
-                    "frequency": "3.7 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 480,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 72.03,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2616",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i7-8700",
-                    "frequency": "3.2 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 2,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 480,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 5,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 96.45,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2612",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230 v5",
-                    "frequency": "3 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 32,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 240,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 145.28,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2985",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1230",
-                    "frequency": "3.2 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 181.91,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2987",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1270 v5",
-                    "frequency": "3.6 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 480,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 206.32,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2622",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E3-1270 v5",
-                    "frequency": "3.6 GHz",
-                    "cores": 4
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 480,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 230.74,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2984",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Xeon E5-1650 v4",
-                    "frequency": "3.6 GHz",
-                    "cores": 6
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 480,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 242.95,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2623",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "AMD",
-                    "name": "EPYC 7351p",
-                    "frequency": "2.4 GHz",
-                    "cores": 16
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 426.08,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2619",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon Silver 4114",
-                    "frequency": "2.2 GHz",
-                    "cores": 10
-                },
-                "memory": {
-                    "value": 96,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 511.54,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2988",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "AMD",
-                    "name": "EPYC 7401",
-                    "frequency": "2 GHz",
-                    "cores": 24
-                },
-                "memory": {
-                    "value": 128,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 960,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    },
-                    {
-                        "amount": 2,
-                        "value": 4,
-                        "unit": "TB",
-                        "type": "HDD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 975.46,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/2617",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 1,
-                    "brand": "Intel",
-                    "name": "Core i9-10900K",
-                    "frequency": "3.7 GHz",
-                    "cores": 10
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 1,
-                        "unit": "TB",
-                        "type": "SSD",
-                        "connType": "NVMe"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 218.53,
-                    "unit": "USD"
-                },
-                "url": null,
-                "available": false
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2630 v4",
-                    "frequency": "2.2 GHz",
-                    "cores": 10
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 480,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 1097.55,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/3712",
-                "available": true
-            },
-            {
-                "location": {
-                    "country": "Russia",
-                    "city": "St Petersburg"
-                },
-                "cpu": {
-                    "amount": 2,
-                    "brand": "Intel",
-                    "name": "Xeon E5-2630 v4",
-                    "frequency": "2.2 GHz",
-                    "cores": 10
-                },
-                "memory": {
-                    "value": 64,
-                    "unit": "GB",
-                    "type": "DDR4"
-                },
-                "storage": [
-                    {
-                        "amount": 2,
-                        "value": 480,
-                        "unit": "GB",
-                        "type": "SSD",
-                        "connType": "SATA"
-                    }
-                ],
-                "bandwidthSpeed": {
-                    "value": 1,
-                    "unit": "Gbps"
-                },
-                "bandwidthLimit": {
-                    "value": 30,
-                    "unit": "TB"
-                },
-                "price": {
-                    "value": 2074.24,
-                    "unit": "USD"
-                },
-                "url": "https://oneprovider.com/order/item/dediconf/3713",
                 "available": true
             },
             {
